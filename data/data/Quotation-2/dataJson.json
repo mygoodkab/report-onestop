@@ -1,0 +1,84 @@
+{
+    "pages":[
+        {   "current_page":"1",
+            "max_page":"2",
+            "company":"1Stop Jewelry Co,. Ltd Thapra",
+            "tel":"02-891-5030 ",
+            "fax":"02-891-5032",
+            "name":"Thapra",
+            "none":"none",
+            "email":"onestop.thaprabranch@gmail.com",
+            "quotationNo":"123456",
+            "supplier_ref":"",
+            "other_ref":"",
+            "buyer":"202 BABY",
+            "total":"1.00",
+            "date_now":"2 Aug 2018",
+            "time_now":"11:60",
+            "items":[
+                     {
+                         "jobNo":"1800001-1",
+                         "job_type":"Full process",
+                         "process":[
+                                    {"view":{"en":"Wax Injection"},"name":"Wax Injection", "remarkQuotation":"remarkQuotation" ,"rate":"10","amount":"100", "qty":"1000.00","per":"pcs"},
+                                    {"view":{"en":"Casting"},"name":"Casting", "remarkQuotation":"remarkQuotation","rate":"10","amount":"100", "qty":"100.00","per":"pcs"},
+                                    {   
+                                        "isSetting":"true",
+                                        "view":{"en":"Setting"},
+                                        "name":"setting", 
+                                        "remarkQuotation":"remarkQuotation",
+                                        "rate":"10",
+                                        "amount":"100", 
+                                        "qty":"10000.00",
+                                        "per":"pcs",
+                                        "data": { 
+                                            "centerStone": "name A",
+                                            "centerSetting": "setting-002",
+                                            "centerStoneRate":"10000",
+                                            "centerStoneAmount":"2000", 
+                                            "centerStoneQty":10,
+                                            "sideStone": "name B",
+                                            "sideSetting": "setting-003",
+                                            "sideStoneRate":"10000",
+                                            "sideStoneAmount":"2000",
+                                            "sideStoneQty":10, 
+                                            "other":[
+                                        		{ 
+                                        			"otherStone":"name C",
+                                        			"otherSetting":"a",
+                                        			"otherStoneRate":"1000",
+                                         			"otherStoneAmount":"2000",
+                                        			"otherStoneQty": 20
+                                        		}
+                                        	],
+                                            "metalWeight": "10",
+                                            "stoneWeight": "10",
+                                            "remark": null
+                                         }
+                                    }
+                             ],
+                         "qty":"10.0000",
+                         "rate":"100.00",
+                         "amount":"1000.00",
+                         "per":"Gms",
+                         "imgQuo":"5b0fa973c7427101a29a62f2"
+                     },
+                     {
+                         "jobNo":"1800001-2",
+                         "job_type":"Select Process",
+                         "process":[{"view":{"en":"Wax Injection"},"name":"Wax Injection", "remarkQuotation":"remarkQuotation" ,"rate":"10","amount":"100", "qty":"100.00","per":"pcs"},
+                                    {"view":{"en":"Casting"},"name":"Casting", "remarkQuotation":"remarkQuotation","rate":"10","amount":"100", "qty":"100.00","per":"pcs"},
+                                    {"view":{"en":"Wax Injection"},"name":"Wax Injection", "remarkQuotation":"remarkQuotation","rate":"10","amount":"100", "qty":"100.00","per":"pcs"}
+                                    ],
+                         "qty":"10",
+                         "rate":"10.00",
+                         "amount":"1000.00",
+                         "per":"Pcs",
+                         "imgQuo":"5b0fa973c7427101a29a62f2",
+                         "remarkQuotation":[]
+                     }
+                  ]
+            }
+            
+    ] 
+}

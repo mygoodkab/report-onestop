@@ -1,0 +1,17 @@
+{
+    "shortid": "rkb7cGWIm",
+    "name": "back-up",
+    "recipe": "chrome-pdf",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true
+    },
+    "modificationDate": {
+        "$$date": 1535605225404
+    },
+    "_id": "DqRy8UIEBApCcRnR",
+    "$entitySet": "templates",
+    "data": {
+        "shortid": "rksB-QZUQ"
+    }
+}

@@ -1,0 +1,310 @@
+<html>
+   <head>
+      <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <!--<script type="text/javascript" src="../../../node_modules/handlebars-helpers/index.js">
+         </script>
+         <script src="handlebars/dist/handlebars.min.js"></script>
+         <script src="handlebars-intl/dist/handlebars-intl.min.js"></script> -->
+      <script src="jquery-3.3.1.min.js"></script>
+      <style>
+         {#asset Quotation styles.css @encoding=utf8}
+      </style>
+      <style>
+         @font-face {
+         font-family: 'calibri';
+         src: url({#asset Calibri.woff @encoding=dataURI});
+         format('woff');
+         }
+         @font-face {
+         font-family: 'cordia';
+         src: url({#asset cordia.ttf @encoding=dataURI});
+         format('ttf');
+         }
+         * {
+         font-family: 'calibri';
+         }
+      </style>
+   </head>
+   <body>
+      <!----------------------------   TEMPLATE 1 MULTI PAGE  --------------------------------------->
+      {{#each pages}}
+      <div class="page-break">
+         <div class="quotation-box" id="quotation">
+            <div class="print-on">
+               Printed on {{date_now}} at {{time_now}}
+            </div>
+            <div class="header">
+               Quotation
+            </div>
+            <div class="table">
+               <div class="row">
+                  {{!-- SECTION 1 --}}  
+                  <div class="col-xs-6">
+                     <div class="row">
+                        <div class="col-xs-12 contact box">
+                           <p style="line-height:25px;"> <b> {{company}} </b></p>
+                           <p > Tel: {{tel}} </p>
+                           <p> Fax: {{fax}} </p>
+                           <p> {{name}} </p>
+                           <p> {{none}} </p>
+                           <p> Email: {{email}} </p>
+                        </div>
+                        <div class="col-xs-12 buyer box font-10" style="border-top:none; border-bottom:none;">
+                           <span> Buyer </span> <br/>
+                           <span><b> {{buyer}} </b></span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xs-6 ">
+                     <div class="row border-buttom-left">
+                        <div class="col-xs-6 box invoice" >
+                           <p class="font-10">  Invoice No. </p>
+                           <p style="padding-bottom:5px;"><b>  {{quotationNo}}  </b></p>
+                        </div>
+                        <div class="col-xs-6 box date">
+                           <p class="font-10">  Dated </p>
+                           <p>  {{date_now}}  </p>
+                        </div>
+                        <div class="col-xs-6 box supplier-ref">
+                           <p class="font-10">  Supplier's Ref. </p>
+                           <p>   </p>
+                        </div>
+                        <div class="col-xs-6 box other-ref">
+                           <p class="font-10">  Other Reference(s) </p>
+                           <p>  </p>
+                        </div>
+                        <div class="col-xs-12 box blank-box">
+                        </div>
+                     </div>
+                  </div>
+                  {{!--  END SECTION 1 --}}    
+                  {{!--  SECTION 2 --}}      
+                  <div class="col-xs-12" style="position:relative;">
+                     {{!--  ITEMS HEADER --}}      
+                     <div class="row items-header border-buttom-left" >
+                        <div class="col-xs-1 box image-table" style="border-left: 1px solid;">
+                           Image
+                        </div>
+                        <div class="col-xs-2 box" >
+                           Job No.
+                        </div>
+                        <div class="col-xs-4 box description" >
+                           Order Detail
+                        </div>
+                        <div class="col-xs-1 box quantity">
+                           Quantity
+                        </div>
+                        <div class="col-xs-1 box rate">
+                           Rate
+                        </div>
+                        <div class="col-xs-1 box per" >
+                           Per
+                        </div>
+                        <div class="col-xs-2 box amount">
+                           Amount
+                        </div>
+                     </div>
+                     {{!--  END ITEMS HEADER - --}}  
+                     {{!--   ITEMS BOX --}} 
+                     <div class="row items-box-long border-buttom-left" >
+                        <div class="col-xs-1 box image-table" style="border-left: 1px solid;">
+                        </div>
+                        <div class="col-xs-2 box" >
+                        </div>
+                        <div class="col-xs-6 box description" >
+                        </div>
+                        <div class="col-xs-1 box quantity">
+                        </div>
+                        <div class="col-xs-1 box rate">
+                        </div>
+                        <div class="col-xs-1 box per">
+                        </div>
+                        <div class="col-xs-2 box amount" >
+                        </div>
+                     </div>
+                     {{!--  END ITEMS BOXE --}} 
+                     {{!--  ITEMS LIST --}} 
+                     <div style="position:relative; ">
+                        <div class="row" style="position:absolute; width:104%; padding-top:10px;">
+                           {{#each items}}
+                           <div class="col-xs-12 font-10" >
+                              {{#if imgQuo}}
+                              <div class="row" >
+                                 <div class="col-xs-1 image-table" style="text-align:center;  ">
+                                    <img src="https://api.onestop.codth.com/file/image/{{ imgQuo }}" alt="Italian Trulli" style="left: 3px; position: absolute;">
+                                 </div>
+                                 {{else}}
+                                 <div class="row" style="margin-top:-20px;">
+                                    {{/if}}
+                                    {{#if jobNo}}
+                                    <div class="col-xs-2" >
+                                       {{ jobNo }}
+                                    </div>
+                                    {{/if}}
+                                    <div class="col-xs-6 description" style="padding-left:0.5%; padding-right:0.5%;  text-align:left;">
+                                       <span class="font-12"><b> {{ job_type }} </b></span> <br>
+                                    </div>
+                                    <div class="col-xs-1 quantity" style="padding-left:0.5%; padding-right:0.5%; text-align:right;">
+                                    </div>
+                                    <div class="col-xs-1 rate" style="padding-left:0.5%; padding-right:0.5%; text-align:right;">
+                                    </div>
+                                    <div class="col-xs-1 per" style="padding-left:1%; padding-right:0.5%; text-align:center; ">
+                                    </div>
+                                    <div class="col-xs-2 amount" style="padding-left:0.5%; padding-right:0.5%; text-align:right;">
+                                    </div>
+                                 </div>
+                                 <div>
+                                    {{#each process}}
+                                    <div class="row" >
+                                        <!-- if process is setting -->
+                                        {{#if isSetting}}
+                                           <div class="col-xs-1 image-table" style="text-align:center; ">
+                                           </div>
+                                           <div class="col-xs-2" >
+                                           </div>
+                                           <div class="col-xs-6 description" style="padding-left:0.5%; padding-right:0.5%;  text-align:left;">
+                                              <div style="padding-bottom:10px;">
+                                                 <span><i><b> &emsp; {{ view.en }} </b></i >  </span><br>
+                                                 {{#if data.centerStone}}
+                                                      <div class="row" style="width:245%">
+                                                        <div  class="col-xs-4" style="width:231px"><span><i> &emsp; Center Stone : {{ data.centerStone }} </i></span></div> 
+                                                        <div  class="col-xs-2" style="text-align: right; padding:0px; width:78px;"> <span> 1000.00 pcs </span></div>
+                                                        <div  class="col-xs-2" style="text-align: right; padding:0px; width:64px;"> <span> 10 </span></div>
+                                                        <div  class="col-xs-2" style="text-align: right; padding:0px; width:30px;"> <span> pcs </span></div>
+                                                        <div  class="col-xs-2" style="text-align: right; padding:0px; width:115px;"> <span> 1000 </span></div>
+                                                      </div>
+                                                      
+                                                 {{/if}}
+                                                 {{#if data.sideStone}}
+                                                    <div class="row" style="width:245%">
+                                                        <div  class="col-xs-4" style="width:231px"><span><i> &emsp; Side stone : {{ data.sideStone }} </i></span></div> 
+                                                        <div  class="col-xs-2" style="text-align: right; padding:0px; width:78px;"> <span> 1000.00 pcs </span></div>
+                                                        <div  class="col-xs-2" style="text-align: right; padding:0px; width:64px;"> <span> 10 </span></div>
+                                                        <div  class="col-xs-2" style="text-align: right; padding:0px; width:30px;"> <span> pcs </span></div>
+                                                        <div  class="col-xs-2" style="text-align: right; padding:0px; width:115px;"> <span> 1000 </span></div>
+                                                      </div>
+     
+                                                 {{/if}}
+                                                 {{#if data.other}}
+                                                       {{#each data.other}}
+                                                    <div class="row" style="width:245%">
+                                                        <div  class="col-xs-4" style="width:231px"><span><i> &emsp; Other stone : {{ otherStone }} </i></span></div> 
+                                                        <div  class="col-xs-2" style="text-align: right; padding:0px; width:78px;"> <span> 1000.00 pcs </span></div>
+                                                        <div  class="col-xs-2" style="text-align: right; padding:0px; width:64px;"> <span> 10 </span></div>
+                                                        <div  class="col-xs-2" style="text-align: right; padding:0px; width:30px;"> <span> pcs </span></div>
+                                                        <div  class="col-xs-2" style="text-align: right; padding:0px; width:115px;"> <span> 1000 </span></div>
+                                                      </div>
+                                                       {{/each}}
+                                                 {{/if}}
+                                              </div>
+                                           </div>
+                                           <div class="col-xs-1 quantity" style="padding-left:0.5%; padding-right:0.5%; text-align:right;">
+                                              
+                                           </div>
+                                           <div class="col-xs-1 rate" style="padding-left:0.5%; padding-right:0.5%; text-align:right;">
+                                            
+                                           </div>
+                                           <div class="col-xs-1 per" style="padding-left:1%; padding-right:0.5%; text-align:center; ">
+                                             
+                                           </div>
+                                           <div class="col-xs-2 amount" style="padding-left:0.5%; padding-right:0.5%; text-align:right;">
+                                              
+                                           </div>
+                                             
+                                     <!--vvvvvvvvvvv-->
+                                     
+                                        <!-- if process is not setting-->     
+                                        {{else}}
+                                          <div class="col-xs-1 image-table" style="text-align:center; ">
+                                           </div>
+                                           <div class="col-xs-2" >
+                                           </div>
+                                           <div class="col-xs-6 description" style="padding-left:0.5%; padding-right:0.5%;  text-align:left;">
+                                              <div style="padding-bottom:10px;">
+                                                 <span><i><b> &emsp; {{ view.en }} </b></i >  </span><br>
+                                                 <span><i> &emsp; {{ remarkQuotation }} </i></span><br>
+                                              </div>
+                                           </div>
+                                           <div class="col-xs-1 quantity" style="padding-left:0.5%; padding-right:0.5%; text-align:right;">
+                                              {{ qty }} {{ per }}
+                                           </div>
+                                           <div class="col-xs-1 rate" style="padding-left:0.5%; padding-right:0.5%; text-align:right;">
+                                              {{ rate }}
+                                           </div>
+                                           <div class="col-xs-1 per" style="padding-left:1%; padding-right:0.5%; text-align:center; ">
+                                              {{ per }}
+                                           </div>
+                                           <div class="col-xs-2 amount" style="padding-left:0.5%; padding-right:0.5%; text-align:right;">
+                                              {{ amount }}
+                                           </div>
+                                        {{/if}}
+                                      
+                                    </div>
+                                    {{/each}}
+                                 </div>
+                              </div>
+                              {{/each}}
+                           </div>
+                        </div>
+                        {{!-- END ITEMS LIST --}} 
+                        {{!--  ITEMS SUMMARY--}} 
+                        <div class="row box " style="margin-top:450px; border-bottom:none;">
+                           <div class="col-xs-7 font-10 items-summary" style="padding-top: 0.3%; "> Total </div>
+                           <div class="col-xs-5 font-14 items-summary"><b> {{total}} Bath </b></div>
+                        </div>
+                        {{!-- END ITEMS SUMMARY--}} 
+                     </div>
+                     {{!-- END SECTION 2 --}}  
+                     {{!-- SECTION 3 --}} 
+                     <div class="col-xs-12">
+                        <div class="row box footer-long" >
+                           <div class="col-xs-12" style="height:5%;">
+                              <div class="row" >
+                                 <div class="col-xs-6 font-10"  >
+                                    <p> Amount Chargeable (in words) </p>
+                                    <p><b> {{inWords total}}  </b> </p>
+                                 </div>
+                                 <div class="col-xs-6 font-10" style="text-align:right;">
+                                    <i> E. & O.E </i>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-xs-12">
+                              <div class="row">
+                                 <div class="col-xs-6 font-10 declaration">
+                                    <p><u> Declaration </u></p>
+                                    <p> 1. เอกสารฉบับนี้เป็นเอกสารส่งสินค้าและใบวางบินเงินสด </p>
+                                    <p> 2. สินค้ามีปัญหากรุณาส่งสินค้าคืนภายใน 2 วันนับตั้งแต่วันที่ได้รับสินค้าหากเกินกว่ากำหนดถือว่ายินยอมรับสินค้า และไม่สามารถคืนสินค้าหรือยกเลิกสินค้าดังกล่าวได้ </p>
+                                    <p> 3. 1Stop Customer Care (แผนกดูแลลูกค้า) สนใจติชมสินค้าและบริการโปรดติดต่อ 1stop.customercare@gmail.com  </p>
+                                 </div>
+                                 <div class="col-xs-6 font-10 box footer-box ">
+                                    <div>
+                                       <p> for 1 Stop Jewelry Co., Ltd Thapra </p>
+                                    </div>
+                                    <div style="padding-top:10%">
+                                       <p> Authorised Signatory </p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     {{!-- SECTION 3 --}} 
+                     {{!--  ENDING TEXT  --}}
+                     <div class="col-xs-8 endding font-10 " style="padding-top:5%;">
+                        This is a Computer Generated quotation.  
+                     </div>
+                     <div class="col-xs-4 endding font-10 " style="padding-top:5%;">
+                        {{current_page}} / {{max_page}}
+                     </div>
+                     {{!--  ENDING TEXT  --}}
+                  </div>
+               </div>
+            </div>
+         </div>
+         {{/each}}
+         <!----------------------------  END TEMPLATE 1 MULTI  PAGE --------------------------------------->
+      </div>
+   </body>
+</html>

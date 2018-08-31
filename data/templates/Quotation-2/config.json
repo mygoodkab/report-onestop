@@ -1,0 +1,17 @@
+{
+    "shortid": "H1_vk4UvX",
+    "name": "Quotation-2",
+    "recipe": "chrome-pdf",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true
+    },
+    "modificationDate": {
+        "$$date": 1535705525982
+    },
+    "_id": "DyFCL3BHkqBdTb9v",
+    "$entitySet": "templates",
+    "data": {
+        "shortid": "rksB-QZUQ"
+    }
+}

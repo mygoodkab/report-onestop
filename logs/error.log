@@ -1,0 +1,443 @@
+2018-07-17T08:42:38.956Z - error: Error during processing request at http://localhost:5488/api/report, details: Could not parse report template, aren't you missing content type?
+undefined
+2018-07-17T08:44:54.475Z - error: Error during processing request at http://localhost:5488/api/report, details: Could not parse report template, aren't you missing content type?
+undefined
+2018-07-17T08:45:09.610Z - error: Error during processing request at http://localhost:5488/api/report, details: Could not parse report template, aren't you missing content type?
+undefined
+2018-07-17T09:37:23.129Z - error: Error during processing request at http://localhost:5488/api/report, details: Could not parse report template, aren't you missing content type?
+undefined
+2018-07-17T10:12:48.934Z - error: Error during processing request at http://localhost:5488/api/report, details: Could not parse report template, aren't you missing content type?
+undefined
+2018-07-17T10:12:59.317Z - error: Error during processing request at http://localhost:5488/api/report, details: Could not parse report template, aren't you missing content type?
+undefined
+2018-07-17T10:23:33.217Z - error: Error during processing request at http://localhost:5488/api/report, details: request aborted, stack: BadRequestError: request aborted
+    at IncomingMessage.onAborted (C:\Users\56160\Desktop\jsreport-win\node_modules\raw-body\index.js:231:10)
+    at emitNone (events.js:106:13)
+    at IncomingMessage.emit (events.js:208:7)
+    at abortIncoming (_http_server.js:424:9)
+    at socketOnClose (_http_server.js:418:3)
+    at emitOne (events.js:121:20)
+    at Socket.emit (events.js:211:7)
+    at TCP._handle.close [as _onclose] (net.js:557:12)
+2018-07-18T10:27:46.303Z - error: Error during processing request at http://localhost:5488/api/report, details: BadRequestError: request aborted
+    at IncomingMessage.onAborted (C:\Users\56160\Desktop\jsreport-win\node_modules\raw-body\index.js:231:10)
+    at emitNone (events.js:106:13)
+    at IncomingMessage.emit (events.js:208:7)
+    at abortIncoming (_http_server.js:424:9)
+    at socketOnClose (_http_server.js:418:3)
+    at emitOne (events.js:121:20)
+    at Socket.emit (events.js:211:7)
+    at TCP._handle.close [as _onclose] (net.js:557:12)
+2018-07-18T10:30:46.241Z - error: uncaughtException: ENOENT: no such file or directory, scandir 'C:\Users\56160\AppData\Local\Temp\jsreport\autocleanup' date=Wed Jul 18 2018 17:30:46 GMT+0700 (SE Asia Standard Time), pid=5368, uid=null, gid=null, cwd=C:\Users\56160\Desktop\jsreport-win, execPath=C:\Program Files\nodejs\node.exe, version=v8.11.3, argv=[C:\Program Files\nodejs\node.exe, C:\Users\56160\AppData\Roaming\npm\node_modules\jsreport-cli\cli.js, start], rss=111808512, heapTotal=79212544, heapUsed=63472832, external=330864, loadavg=[0, 0, 0], uptime=29741.7419496, trace=[column=18, file=fs.js, function=Object.fs.readdirSync, line=904, method=readdirSync, native=false, column=20, file=C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js, function=null, line=98, method=null, native=false, column=null, file=null, function=Array.forEach, line=null, method=forEach, native=false, column=13, file=C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js, function=Reaper.start, line=97, method=start, native=false, column=14, file=C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js, function=Timeout.setInterval [as _onTimeout], line=676, method=setInterval [as _onTimeout], native=false, column=11, file=timers.js, function=ontimeout, line=498, method=null, native=false, column=5, file=timers.js, function=Timer.unrefdHandle, line=611, method=unrefdHandle, native=false], stack=[Error: ENOENT: no such file or directory, scandir 'C:\Users\56160\AppData\Local\Temp\jsreport\autocleanup',     at Object.fs.readdirSync (fs.js:904:18),     at C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js:98:20,     at Array.forEach (<anonymous>),     at Reaper.start (C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js:97:13),     at Timeout.setInterval [as _onTimeout] (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js:676:14),     at ontimeout (timers.js:498:11),     at Timer.unrefdHandle (timers.js:611:5)]
+2018-07-23T08:31:59.265Z - error: uncaughtException: ENOENT: no such file or directory, scandir 'C:\Users\56160\AppData\Local\Temp\jsreport\autocleanup' date=Mon Jul 23 2018 15:31:59 GMT+0700 (SE Asia Standard Time), pid=9836, uid=null, gid=null, cwd=C:\Users\56160\Desktop\jsreport-win, execPath=C:\Program Files\nodejs\node.exe, version=v8.11.3, argv=[C:\Program Files\nodejs\node.exe, C:\Users\56160\AppData\Roaming\npm\node_modules\jsreport-cli\cli.js, start], rss=76742656, heapTotal=80261120, heapUsed=62131720, external=304296, loadavg=[0, 0, 0], uptime=454617.5590502, trace=[column=18, file=fs.js, function=Object.fs.readdirSync, line=904, method=readdirSync, native=false, column=20, file=C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js, function=null, line=98, method=null, native=false, column=null, file=null, function=Array.forEach, line=null, method=forEach, native=false, column=13, file=C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js, function=Reaper.start, line=97, method=start, native=false, column=14, file=C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js, function=Timeout.setInterval [as _onTimeout], line=676, method=setInterval [as _onTimeout], native=false, column=11, file=timers.js, function=ontimeout, line=498, method=null, native=false, column=5, file=timers.js, function=Timer.unrefdHandle, line=611, method=unrefdHandle, native=false], stack=[Error: ENOENT: no such file or directory, scandir 'C:\Users\56160\AppData\Local\Temp\jsreport\autocleanup',     at Object.fs.readdirSync (fs.js:904:18),     at C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js:98:20,     at Array.forEach (<anonymous>),     at Reaper.start (C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js:97:13),     at Timeout.setInterval [as _onTimeout] (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js:676:14),     at ontimeout (timers.js:498:11),     at Timer.unrefdHandle (timers.js:611:5)]
+2018-07-24T11:08:57.055Z - error: uncaughtException: ENOENT: no such file or directory, scandir 'C:\Users\56160\AppData\Local\Temp\jsreport\autocleanup' date=Tue Jul 24 2018 18:08:57 GMT+0700 (SE Asia Standard Time), pid=16172, uid=null, gid=null, cwd=C:\Users\56160\Desktop\jsreport-win, execPath=C:\Program Files\nodejs\node.exe, version=v8.11.3, argv=[C:\Program Files\nodejs\node.exe, C:\Users\56160\AppData\Roaming\npm\node_modules\jsreport-cli\cli.js, start], rss=89505792, heapTotal=77639680, heapUsed=63112200, external=339661, loadavg=[0, 0, 0], uptime=550435.3511173, trace=[column=18, file=fs.js, function=Object.fs.readdirSync, line=904, method=readdirSync, native=false, column=20, file=C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js, function=null, line=98, method=null, native=false, column=null, file=null, function=Array.forEach, line=null, method=forEach, native=false, column=13, file=C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js, function=Reaper.start, line=97, method=start, native=false, column=14, file=C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js, function=Timeout.setInterval [as _onTimeout], line=676, method=setInterval [as _onTimeout], native=false, column=11, file=timers.js, function=ontimeout, line=498, method=null, native=false, column=5, file=timers.js, function=Timer.unrefdHandle, line=611, method=unrefdHandle, native=false], stack=[Error: ENOENT: no such file or directory, scandir 'C:\Users\56160\AppData\Local\Temp\jsreport\autocleanup',     at Object.fs.readdirSync (fs.js:904:18),     at C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js:98:20,     at Array.forEach (<anonymous>),     at Reaper.start (C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js:97:13),     at Timeout.setInterval [as _onTimeout] (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js:676:14),     at ontimeout (timers.js:498:11),     at Timer.unrefdHandle (timers.js:611:5)]
+2018-07-24T11:53:44.495Z - error: Error when processing OData POST: /odata/assets Error: Entity name can not be empty
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\util\createError.js:9:13)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\util\validateEntityName.js:26:11)
+    at Object.insert (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\store\collection.js:92:7)
+    at ODataServer.odataServer.model.beforeQuery.beforeUpdate.beforeRemove.beforeInsert.update.insert (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\odata.js:34:69)
+    at C:\Users\56160\Desktop\jsreport-win\node_modules\simple-odata-server\lib\odataServer.js:201:14
+    at ODataServer.odataServer.model.beforeQuery.beforeUpdate.beforeRemove.beforeInsert (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\odata.js:29:7)
+    at ODataServer.executeInsert (C:\Users\56160\Desktop\jsreport-win\node_modules\simple-odata-server\lib\odataServer.js:196:12)
+    at processBody (C:\Users\56160\Desktop\jsreport-win\node_modules\simple-odata-server\lib\insert.js:29:9)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\simple-odata-server\lib\insert.js:59:12)
+    at Object.fn (C:\Users\56160\Desktop\jsreport-win\node_modules\simple-odata-server\lib\odataServer.js:90:5)
+    at Router.router.dispatch (C:\Users\56160\Desktop\jsreport-win\node_modules\simple-odata-server\lib\router.js:63:12)
+    at ODataServer.handle (C:\Users\56160\Desktop\jsreport-win\node_modules\simple-odata-server\lib\odataServer.js:64:15)
+    at app.use (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:18:47)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:284:7
+2018-07-24T11:57:08.608Z - error: Error when processing render request Asset encoded as dataURI needs to have file extension jpeg|jpg|gif|png|svg|woff|tff|otf|woff2|eot Error: Asset encoded as dataURI needs to have file extension jpeg|jpg|gif|png|svg|woff|tff|otf|woff2|eot
+    at convert (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-assets\lib\assets.js:55:15)
+    at C:\Users\56160\Desktop\jsreport-win\node_modules\async-replace\async-replace.js:63:26
+    at C:\Users\56160\Desktop\jsreport-win\node_modules\async\lib\async.js:718:13
+    at async.forEachOf.async.eachOf (C:\Users\56160\Desktop\jsreport-win\node_modules\async\lib\async.js:233:13)
+    at _parallel (C:\Users\56160\Desktop\jsreport-win\node_modules\async\lib\async.js:717:9)
+    at Object.async.parallel (C:\Users\56160\Desktop\jsreport-win\node_modules\async\lib\async.js:731:9)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\async-replace\async-replace.js:71:11)
+    at tryCatcher (C:\Users\56160\Desktop\jsreport-win\node_modules\bluebird\js\release\util.js:16:23)
+    at ret (eval at makeNodePromisifiedEval (C:\Users\56160\Desktop\jsreport-win\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+    at evaluateAssets (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-assets\lib\assets.js:67:24)
+    at Object.reporter.beforeRenderListeners.insert (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-assets\lib\assets.js:272:34)
+    at <anonymous>
+2018-07-24T11:57:08.608Z - error: Error during processing request at http://localhost:5488/api/report/Quotation
+2018-07-24T11:57:09.724Z - error: Error when processing render request Asset encoded as dataURI needs to have file extension jpeg|jpg|gif|png|svg|woff|tff|otf|woff2|eot Error: Asset encoded as dataURI needs to have file extension jpeg|jpg|gif|png|svg|woff|tff|otf|woff2|eot
+    at convert (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-assets\lib\assets.js:55:15)
+    at C:\Users\56160\Desktop\jsreport-win\node_modules\async-replace\async-replace.js:63:26
+    at C:\Users\56160\Desktop\jsreport-win\node_modules\async\lib\async.js:718:13
+    at async.forEachOf.async.eachOf (C:\Users\56160\Desktop\jsreport-win\node_modules\async\lib\async.js:233:13)
+    at _parallel (C:\Users\56160\Desktop\jsreport-win\node_modules\async\lib\async.js:717:9)
+    at Object.async.parallel (C:\Users\56160\Desktop\jsreport-win\node_modules\async\lib\async.js:731:9)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\async-replace\async-replace.js:71:11)
+    at tryCatcher (C:\Users\56160\Desktop\jsreport-win\node_modules\bluebird\js\release\util.js:16:23)
+    at ret (eval at makeNodePromisifiedEval (C:\Users\56160\Desktop\jsreport-win\node_modules\bluebird\js\release\promisify.js:184:12), <anonymous>:13:39)
+    at evaluateAssets (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-assets\lib\assets.js:67:24)
+    at Object.reporter.beforeRenderListeners.insert (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-assets\lib\assets.js:272:34)
+    at <anonymous>
+2018-07-24T11:57:09.724Z - error: Error during processing request at http://localhost:5488/api/report/Quotation
+2018-07-25T03:08:49.898Z - error: uncaughtException: ENOENT: no such file or directory, scandir 'C:\Users\56160\AppData\Local\Temp\jsreport\autocleanup' date=Wed Jul 25 2018 10:08:49 GMT+0700 (SE Asia Standard Time), pid=20092, uid=null, gid=null, cwd=C:\Users\56160\Desktop\jsreport-win, execPath=C:\Program Files\nodejs\node.exe, version=v8.11.3, argv=[C:\Program Files\nodejs\node.exe, C:\Users\56160\AppData\Roaming\npm\node_modules\jsreport-cli\cli.js, start], rss=117145600, heapTotal=80957440, heapUsed=66403464, external=2010799, loadavg=[0, 0, 0], uptime=608028.1928337, trace=[column=18, file=fs.js, function=Object.fs.readdirSync, line=904, method=readdirSync, native=false, column=20, file=C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js, function=null, line=98, method=null, native=false, column=null, file=null, function=Array.forEach, line=null, method=forEach, native=false, column=13, file=C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js, function=Reaper.start, line=97, method=start, native=false, column=14, file=C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js, function=Timeout.setInterval [as _onTimeout], line=676, method=setInterval [as _onTimeout], native=false, column=11, file=timers.js, function=ontimeout, line=498, method=null, native=false, column=5, file=timers.js, function=Timer.unrefdHandle, line=611, method=unrefdHandle, native=false], stack=[Error: ENOENT: no such file or directory, scandir 'C:\Users\56160\AppData\Local\Temp\jsreport\autocleanup',     at Object.fs.readdirSync (fs.js:904:18),     at C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js:98:20,     at Array.forEach (<anonymous>),     at Reaper.start (C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js:97:13),     at Timeout.setInterval [as _onTimeout] (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js:676:14),     at ontimeout (timers.js:498:11),     at Timer.unrefdHandle (timers.js:611:5)]
+2018-07-25T07:25:38.857Z - error: Error during processing request at http://localhost:5488/api/report/Quotation, details: SyntaxError: Unexpected token } in JSON at position 321
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\request.js:39:17)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\request.js:30:23)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\render.js:111:19)
+    at Reporter.render (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js:250:12)
+    at Object.reporter.express.render (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:44:14)
+    at app.post (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:74:22)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:275:10)
+2018-07-25T07:25:48.160Z - error: Error during processing request at http://localhost:5488/api/report/Quotation, details: SyntaxError: Unexpected token } in JSON at position 321
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\request.js:39:17)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\request.js:30:23)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\render.js:111:19)
+    at Reporter.render (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js:250:12)
+    at Object.reporter.express.render (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:44:14)
+    at app.post (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:74:22)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:275:10)
+2018-07-25T07:26:00.301Z - error: Error during processing request at http://localhost:5488/api/report/Quotation, details: SyntaxError: Unexpected token } in JSON at position 321
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\request.js:39:17)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\request.js:30:23)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\render.js:111:19)
+    at Reporter.render (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js:250:12)
+    at Object.reporter.express.render (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:44:14)
+    at app.post (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:74:22)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:275:10)
+2018-07-25T07:26:07.915Z - error: Error during processing request at http://localhost:5488/api/report/Quotation, details: SyntaxError: Unexpected token } in JSON at position 321
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\request.js:39:17)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\request.js:30:23)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\render.js:111:19)
+    at Reporter.render (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js:250:12)
+    at Object.reporter.express.render (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:44:14)
+    at app.post (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:74:22)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:275:10)
+2018-07-25T07:26:18.859Z - error: Error during processing request at http://localhost:5488/api/report/Quotation, details: SyntaxError: Unexpected token } in JSON at position 321
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\request.js:39:17)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\request.js:30:23)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\render.js:111:19)
+    at Reporter.render (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js:250:12)
+    at Object.reporter.express.render (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:44:14)
+    at app.post (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:74:22)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:275:10)
+2018-07-25T08:02:03.477Z - error: Error during processing request at http://localhost:5488/api/report/Quotation, details: SyntaxError: Unexpected token ] in JSON at position 941
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\request.js:39:17)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\request.js:30:23)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\render.js:111:19)
+    at Reporter.render (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js:250:12)
+    at Object.reporter.express.render (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:44:14)
+    at app.post (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:74:22)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:275:10)
+2018-07-25T08:02:12.370Z - error: Error during processing request at http://localhost:5488/api/report/Quotation, details: SyntaxError: Unexpected token ] in JSON at position 941
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\request.js:39:17)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\request.js:30:23)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\render.js:111:19)
+    at Reporter.render (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js:250:12)
+    at Object.reporter.express.render (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:44:14)
+    at app.post (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:74:22)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:275:10)
+2018-07-26T02:26:50.812Z - error: Error during processing request at http://localhost:5488/api/report/test, details: SyntaxError: Unexpected token [ in JSON at position 14
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\request.js:39:17)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\request.js:30:23)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\render.js:111:19)
+    at Reporter.render (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js:250:12)
+    at Object.reporter.express.render (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:44:14)
+    at app.post (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:74:22)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:275:10)
+2018-07-26T02:27:10.557Z - error: Error during processing request at http://localhost:5488/api/report/test, details: SyntaxError: Unexpected token [ in JSON at position 14
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\request.js:39:17)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\request.js:30:23)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\render.js:111:19)
+    at Reporter.render (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js:250:12)
+    at Object.reporter.express.render (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:44:14)
+    at app.post (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:74:22)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:275:10)
+2018-07-26T04:22:09.851Z - error: uncaughtException: ENOENT: no such file or directory, scandir 'C:\Users\56160\AppData\Local\Temp\jsreport\autocleanup' date=Thu Jul 26 2018 11:22:09 GMT+0700 (SE Asia Standard Time), pid=6072, uid=null, gid=null, cwd=C:\Users\56160\Desktop\jsreport-win, execPath=C:\Program Files\nodejs\node.exe, version=v8.11.3, argv=[C:\Program Files\nodejs\node.exe, C:\Users\56160\AppData\Roaming\npm\node_modules\jsreport-cli\cli.js, start], rss=133959680, heapTotal=90365952, heapUsed=80445160, external=1199376, loadavg=[0, 0, 0], uptime=698828.1469322, trace=[column=18, file=fs.js, function=Object.fs.readdirSync, line=904, method=readdirSync, native=false, column=20, file=C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js, function=null, line=98, method=null, native=false, column=null, file=null, function=Array.forEach, line=null, method=forEach, native=false, column=13, file=C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js, function=Reaper.start, line=97, method=start, native=false, column=14, file=C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js, function=Timeout.setInterval [as _onTimeout], line=676, method=setInterval [as _onTimeout], native=false, column=11, file=timers.js, function=ontimeout, line=498, method=null, native=false, column=5, file=timers.js, function=Timer.unrefdHandle, line=611, method=unrefdHandle, native=false], stack=[Error: ENOENT: no such file or directory, scandir 'C:\Users\56160\AppData\Local\Temp\jsreport\autocleanup',     at Object.fs.readdirSync (fs.js:904:18),     at C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js:98:20,     at Array.forEach (<anonymous>),     at Reaper.start (C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js:97:13),     at Timeout.setInterval [as _onTimeout] (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js:676:14),     at ontimeout (timers.js:498:11),     at Timer.unrefdHandle (timers.js:611:5)]
+2018-07-31T04:31:36.121Z - error: uncaughtException: ENOENT: no such file or directory, scandir 'C:\Users\56160\AppData\Local\Temp\jsreport\autocleanup' date=Tue Jul 31 2018 11:31:36 GMT+0700 (SE Asia Standard Time), pid=16992, uid=null, gid=null, cwd=C:\Users\56160\Desktop\jsreport-win, execPath=C:\Program Files\nodejs\node.exe, version=v8.11.3, argv=[C:\Program Files\nodejs\node.exe, C:\Users\56160\AppData\Roaming\npm\node_modules\jsreport-cli\cli.js, start], rss=128028672, heapTotal=79212544, heapUsed=70941096, external=1118515, loadavg=[0, 0, 0], uptime=1131396.6600781, trace=[column=18, file=fs.js, function=Object.fs.readdirSync, line=904, method=readdirSync, native=false, column=20, file=C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js, function=null, line=98, method=null, native=false, column=null, file=null, function=Array.forEach, line=null, method=forEach, native=false, column=13, file=C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js, function=Reaper.start, line=97, method=start, native=false, column=14, file=C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js, function=Timeout.setInterval [as _onTimeout], line=676, method=setInterval [as _onTimeout], native=false, column=11, file=timers.js, function=ontimeout, line=498, method=null, native=false, column=5, file=timers.js, function=Timer.unrefdHandle, line=611, method=unrefdHandle, native=false], stack=[Error: ENOENT: no such file or directory, scandir 'C:\Users\56160\AppData\Local\Temp\jsreport\autocleanup',     at Object.fs.readdirSync (fs.js:904:18),     at C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js:98:20,     at Array.forEach (<anonymous>),     at Reaper.start (C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js:97:13),     at Timeout.setInterval [as _onTimeout] (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js:676:14),     at ontimeout (timers.js:498:11),     at Timer.unrefdHandle (timers.js:611:5)]
+2018-08-01T06:20:16.997Z - error: uncaughtException: ENOENT: no such file or directory, scandir 'C:\Users\56160\AppData\Local\Temp\jsreport\autocleanup' date=Wed Aug 01 2018 13:20:16 GMT+0700 (SE Asia Standard Time), pid=16560, uid=null, gid=null, cwd=C:\Users\56160\Desktop\jsreport-win, execPath=C:\Program Files\nodejs\node.exe, version=v8.11.3, argv=[C:\Program Files\nodejs\node.exe, C:\Users\56160\AppData\Roaming\npm\node_modules\jsreport-cli\cli.js, start], rss=101203968, heapTotal=82882560, heapUsed=70438920, external=1162284, loadavg=[0, 0, 0], uptime=1224317.5395369, trace=[column=18, file=fs.js, function=Object.fs.readdirSync, line=904, method=readdirSync, native=false, column=20, file=C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js, function=null, line=98, method=null, native=false, column=null, file=null, function=Array.forEach, line=null, method=forEach, native=false, column=13, file=C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js, function=Reaper.start, line=97, method=start, native=false, column=14, file=C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js, function=Timeout.setInterval [as _onTimeout], line=676, method=setInterval [as _onTimeout], native=false, column=11, file=timers.js, function=ontimeout, line=498, method=null, native=false, column=5, file=timers.js, function=Timer.unrefdHandle, line=611, method=unrefdHandle, native=false], stack=[Error: ENOENT: no such file or directory, scandir 'C:\Users\56160\AppData\Local\Temp\jsreport\autocleanup',     at Object.fs.readdirSync (fs.js:904:18),     at C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js:98:20,     at Array.forEach (<anonymous>),     at Reaper.start (C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js:97:13),     at Timeout.setInterval [as _onTimeout] (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js:676:14),     at ontimeout (timers.js:498:11),     at Timer.unrefdHandle (timers.js:611:5)]
+2018-08-02T04:06:15.196Z - error: Error during processing request at http://localhost:5488/api/report/Quotation, details: SyntaxError: Unexpected token ] in JSON at position 2210
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\request.js:39:17)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\request.js:30:23)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\render.js:111:19)
+    at Reporter.render (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js:250:12)
+    at Object.reporter.express.render (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:44:14)
+    at app.post (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:74:22)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:275:10)
+2018-08-02T09:41:48.770Z - error: uncaughtException: ENOENT: no such file or directory, scandir 'C:\Users\56160\AppData\Local\Temp\jsreport\autocleanup' date=Thu Aug 02 2018 16:41:48 GMT+0700 (SE Asia Standard Time), pid=17028, uid=null, gid=null, cwd=C:\Users\56160\Desktop\jsreport-win, execPath=C:\Program Files\nodejs\node.exe, version=v8.11.3, argv=[C:\Program Files\nodejs\node.exe, C:\Users\56160\AppData\Roaming\npm\node_modules\jsreport-cli\cli.js, start], rss=110186496, heapTotal=90451968, heapUsed=79784840, external=2363964, loadavg=[0, 0, 0], uptime=1322809.3103935, trace=[column=18, file=fs.js, function=Object.fs.readdirSync, line=904, method=readdirSync, native=false, column=20, file=C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js, function=null, line=98, method=null, native=false, column=null, file=null, function=Array.forEach, line=null, method=forEach, native=false, column=13, file=C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js, function=Reaper.start, line=97, method=start, native=false, column=14, file=C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js, function=Timeout.setInterval [as _onTimeout], line=676, method=setInterval [as _onTimeout], native=false, column=11, file=timers.js, function=ontimeout, line=498, method=null, native=false, column=5, file=timers.js, function=Timer.unrefdHandle, line=611, method=unrefdHandle, native=false], stack=[Error: ENOENT: no such file or directory, scandir 'C:\Users\56160\AppData\Local\Temp\jsreport\autocleanup',     at Object.fs.readdirSync (fs.js:904:18),     at C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js:98:20,     at Array.forEach (<anonymous>),     at Reaper.start (C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js:97:13),     at Timeout.setInterval [as _onTimeout] (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js:676:14),     at ontimeout (timers.js:498:11),     at Timer.unrefdHandle (timers.js:611:5)]
+2018-08-03T11:11:47.275Z - error: uncaughtException: ENOENT: no such file or directory, scandir 'C:\Users\56160\AppData\Local\Temp\jsreport\autocleanup' date=Fri Aug 03 2018 18:11:47 GMT+0700 (SE Asia Standard Time), pid=612, uid=null, gid=null, cwd=C:\Users\56160\Desktop\jsreport-win, execPath=C:\Program Files\nodejs\node.exe, version=v8.11.3, argv=[C:\Program Files\nodejs\node.exe, C:\Users\56160\AppData\Roaming\npm\node_modules\jsreport-cli\cli.js, start], rss=101232640, heapTotal=80785408, heapUsed=71067360, external=1157923, loadavg=[0, 0, 0], uptime=1414607.8140751, trace=[column=18, file=fs.js, function=Object.fs.readdirSync, line=904, method=readdirSync, native=false, column=20, file=C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js, function=null, line=98, method=null, native=false, column=null, file=null, function=Array.forEach, line=null, method=forEach, native=false, column=13, file=C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js, function=Reaper.start, line=97, method=start, native=false, column=14, file=C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js, function=Timeout.setInterval [as _onTimeout], line=676, method=setInterval [as _onTimeout], native=false, column=11, file=timers.js, function=ontimeout, line=498, method=null, native=false, column=5, file=timers.js, function=Timer.unrefdHandle, line=611, method=unrefdHandle, native=false], stack=[Error: ENOENT: no such file or directory, scandir 'C:\Users\56160\AppData\Local\Temp\jsreport\autocleanup',     at Object.fs.readdirSync (fs.js:904:18),     at C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js:98:20,     at Array.forEach (<anonymous>),     at Reaper.start (C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js:97:13),     at Timeout.setInterval [as _onTimeout] (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js:676:14),     at ontimeout (timers.js:498:11),     at Timer.unrefdHandle (timers.js:611:5)]
+2018-08-06T05:14:01.680Z - error: uncaughtException: ENOENT: no such file or directory, scandir 'C:\Users\56160\AppData\Local\Temp\jsreport\autocleanup' date=Mon Aug 06 2018 12:14:01 GMT+0700 (SE Asia Standard Time), pid=17332, uid=null, gid=null, cwd=C:\Users\56160\Desktop\jsreport-win, execPath=C:\Program Files\nodejs\node.exe, version=v8.11.3, argv=[C:\Program Files\nodejs\node.exe, C:\Users\56160\AppData\Roaming\npm\node_modules\jsreport-cli\cli.js, start], rss=114630656, heapTotal=85504000, heapUsed=72484304, external=1158522, loadavg=[0, 0, 0], uptime=1652344.9840789, trace=[column=18, file=fs.js, function=Object.fs.readdirSync, line=904, method=readdirSync, native=false, column=20, file=C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js, function=null, line=98, method=null, native=false, column=null, file=null, function=Array.forEach, line=null, method=forEach, native=false, column=13, file=C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js, function=Reaper.start, line=97, method=start, native=false, column=14, file=C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js, function=Timeout.setInterval [as _onTimeout], line=676, method=setInterval [as _onTimeout], native=false, column=11, file=timers.js, function=ontimeout, line=498, method=null, native=false, column=5, file=timers.js, function=Timer.unrefdHandle, line=611, method=unrefdHandle, native=false], stack=[Error: ENOENT: no such file or directory, scandir 'C:\Users\56160\AppData\Local\Temp\jsreport\autocleanup',     at Object.fs.readdirSync (fs.js:904:18),     at C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js:98:20,     at Array.forEach (<anonymous>),     at Reaper.start (C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js:97:13),     at Timeout.setInterval [as _onTimeout] (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js:676:14),     at ontimeout (timers.js:498:11),     at Timer.unrefdHandle (timers.js:611:5)]
+2018-08-06T07:18:21.672Z - error: Error during processing request at http://localhost:5488/api/report/Quotation, details: SyntaxError: Unexpected token } in JSON at position 4439
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\request.js:39:17)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\request.js:30:23)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\render.js:111:19)
+    at Reporter.render (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js:250:12)
+    at Object.reporter.express.render (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:44:14)
+    at app.post (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:74:22)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:275:10)
+2018-08-06T10:28:04.312Z - error: Error when processing render request Request data can not be an array. you should pass an object in request.data input Error: Request data can not be an array. you should pass an object in request.data input
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\util\createError.js:9:13)
+    at Reporter.createError (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js:258:12)
+    at invokeRender (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\render.js:48:20)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\render.js:132:11)
+    at <anonymous>
+2018-08-06T10:28:04.313Z - error: Error during processing request at http://localhost:5488/api/report
+2018-08-06T10:30:27.155Z - error: Error when processing render request Request data can not be an array. you should pass an object in request.data input Error: Request data can not be an array. you should pass an object in request.data input
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\util\createError.js:9:13)
+    at Reporter.createError (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js:258:12)
+    at invokeRender (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\render.js:48:20)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\render.js:132:11)
+    at <anonymous>
+2018-08-06T10:30:27.156Z - error: Error during processing request at http://localhost:5488/api/report
+2018-08-06T10:45:44.853Z - error: Error during processing request at http://localhost:5488/api/report/Quotation, details: SyntaxError: Unexpected token / in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\request.js:39:17)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\request.js:30:23)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\render.js:111:19)
+    at Reporter.render (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js:250:12)
+    at Object.reporter.express.render (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:44:14)
+    at app.post (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:74:22)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:275:10)
+2018-08-06T10:49:58.235Z - error: Error during processing request at http://localhost:5488/api/report/Quotation, details: SyntaxError: Unexpected token / in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\request.js:39:17)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\request.js:30:23)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\render.js:111:19)
+    at Reporter.render (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js:250:12)
+    at Object.reporter.express.render (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:44:14)
+    at app.post (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:74:22)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:275:10)
+2018-08-06T10:50:09.037Z - error: Error during processing request at http://localhost:5488/api/report/Quotation, details: SyntaxError: Unexpected token / in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\request.js:39:17)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\request.js:30:23)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\render.js:111:19)
+    at Reporter.render (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js:250:12)
+    at Object.reporter.express.render (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:44:14)
+    at app.post (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:74:22)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:275:10)
+2018-08-06T10:50:10.647Z - error: Error during processing request at http://localhost:5488/api/report/Quotation, details: SyntaxError: Unexpected token / in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\request.js:39:17)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\request.js:30:23)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\render.js:111:19)
+    at Reporter.render (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js:250:12)
+    at Object.reporter.express.render (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:44:14)
+    at app.post (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:74:22)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:275:10)
+2018-08-06T10:50:11.307Z - error: Error during processing request at http://localhost:5488/api/report/Quotation, details: SyntaxError: Unexpected token / in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\request.js:39:17)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\request.js:30:23)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\render.js:111:19)
+    at Reporter.render (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js:250:12)
+    at Object.reporter.express.render (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:44:14)
+    at app.post (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:74:22)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:275:10)
+2018-08-06T10:50:11.885Z - error: Error during processing request at http://localhost:5488/api/report/Quotation, details: SyntaxError: Unexpected token / in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\request.js:39:17)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\request.js:30:23)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\render.js:111:19)
+    at Reporter.render (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js:250:12)
+    at Object.reporter.express.render (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:44:14)
+    at app.post (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:74:22)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:275:10)
+2018-08-06T10:52:23.665Z - error: Error during processing request at http://localhost:5488/api/report/Quotation, details: SyntaxError: Unexpected token / in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\request.js:39:17)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\request.js:30:23)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\render.js:111:19)
+    at Reporter.render (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js:250:12)
+    at Object.reporter.express.render (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:44:14)
+    at app.post (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:74:22)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:275:10)
+2018-08-07T08:11:29.105Z - error: uncaughtException: ENOENT: no such file or directory, scandir 'C:\Users\56160\AppData\Local\Temp\jsreport\autocleanup' date=Tue Aug 07 2018 15:11:29 GMT+0700 (SE Asia Standard Time), pid=17912, uid=null, gid=null, cwd=C:\Users\56160\Desktop\jsreport-win, execPath=C:\Program Files\nodejs\node.exe, version=v8.11.3, argv=[C:\Program Files\nodejs\node.exe, C:\Users\56160\AppData\Roaming\npm\node_modules\jsreport-cli\cli.js, start], rss=105467904, heapTotal=87752704, heapUsed=72094576, external=1382434, loadavg=[0, 0, 0], uptime=1749394.4733577, trace=[column=18, file=fs.js, function=Object.fs.readdirSync, line=904, method=readdirSync, native=false, column=20, file=C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js, function=null, line=98, method=null, native=false, column=null, file=null, function=Array.forEach, line=null, method=forEach, native=false, column=13, file=C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js, function=Reaper.start, line=97, method=start, native=false, column=14, file=C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js, function=Timeout.setInterval [as _onTimeout], line=676, method=setInterval [as _onTimeout], native=false, column=11, file=timers.js, function=ontimeout, line=498, method=null, native=false, column=5, file=timers.js, function=Timer.unrefdHandle, line=611, method=unrefdHandle, native=false], stack=[Error: ENOENT: no such file or directory, scandir 'C:\Users\56160\AppData\Local\Temp\jsreport\autocleanup',     at Object.fs.readdirSync (fs.js:904:18),     at C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js:98:20,     at Array.forEach (<anonymous>),     at Reaper.start (C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js:97:13),     at Timeout.setInterval [as _onTimeout] (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js:676:14),     at ontimeout (timers.js:498:11),     at Timer.unrefdHandle (timers.js:611:5)]
+2018-08-15T06:27:54.106Z - error: uncaughtException: ENOENT: no such file or directory, scandir 'C:\Users\56160\AppData\Local\Temp\jsreport\autocleanup' date=Wed Aug 15 2018 13:27:54 GMT+0700 (SE Asia Standard Time), pid=8952, uid=null, gid=null, cwd=C:\Users\56160\Desktop\jsreport-win, execPath=C:\Program Files\nodejs\node.exe, version=v8.11.3, argv=[C:\Program Files\nodejs\node.exe, C:\Users\56160\AppData\Roaming\npm\node_modules\jsreport-cli\cli.js, start], rss=87896064, heapTotal=86552576, heapUsed=69038720, external=1121536, loadavg=[0, 0, 0], uptime=2434382.0625725, trace=[column=18, file=fs.js, function=Object.fs.readdirSync, line=904, method=readdirSync, native=false, column=20, file=C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js, function=null, line=98, method=null, native=false, column=null, file=null, function=Array.forEach, line=null, method=forEach, native=false, column=13, file=C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js, function=Reaper.start, line=97, method=start, native=false, column=14, file=C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js, function=Timeout.setInterval [as _onTimeout], line=676, method=setInterval [as _onTimeout], native=false, column=11, file=timers.js, function=ontimeout, line=498, method=null, native=false, column=5, file=timers.js, function=Timer.unrefdHandle, line=611, method=unrefdHandle, native=false], stack=[Error: ENOENT: no such file or directory, scandir 'C:\Users\56160\AppData\Local\Temp\jsreport\autocleanup',     at Object.fs.readdirSync (fs.js:904:18),     at C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js:98:20,     at Array.forEach (<anonymous>),     at Reaper.start (C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js:97:13),     at Timeout.setInterval [as _onTimeout] (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js:676:14),     at ontimeout (timers.js:498:11),     at Timer.unrefdHandle (timers.js:611:5)]
+2018-08-16T06:57:48.782Z - error: uncaughtException: ENOENT: no such file or directory, scandir 'C:\Users\56160\AppData\Local\Temp\jsreport\autocleanup' date=Thu Aug 16 2018 13:57:48 GMT+0700 (SE Asia Standard Time), pid=1376, uid=null, gid=null, cwd=C:\Users\56160\Desktop\jsreport-win, execPath=C:\Program Files\nodejs\node.exe, version=v8.11.3, argv=[C:\Program Files\nodejs\node.exe, C:\Users\56160\AppData\Roaming\npm\node_modules\jsreport-cli\cli.js, start], rss=116178944, heapTotal=87601152, heapUsed=73584344, external=1135810, loadavg=[0, 0, 0], uptime=14746.2843486, trace=[column=18, file=fs.js, function=Object.fs.readdirSync, line=904, method=readdirSync, native=false, column=20, file=C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js, function=null, line=98, method=null, native=false, column=null, file=null, function=Array.forEach, line=null, method=forEach, native=false, column=13, file=C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js, function=Reaper.start, line=97, method=start, native=false, column=14, file=C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js, function=Timeout.setInterval [as _onTimeout], line=676, method=setInterval [as _onTimeout], native=false, column=11, file=timers.js, function=ontimeout, line=498, method=null, native=false, column=5, file=timers.js, function=Timer.unrefdHandle, line=611, method=unrefdHandle, native=false], stack=[Error: ENOENT: no such file or directory, scandir 'C:\Users\56160\AppData\Local\Temp\jsreport\autocleanup',     at Object.fs.readdirSync (fs.js:904:18),     at C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js:98:20,     at Array.forEach (<anonymous>),     at Reaper.start (C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js:97:13),     at Timeout.setInterval [as _onTimeout] (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js:676:14),     at ontimeout (timers.js:498:11),     at Timer.unrefdHandle (timers.js:611:5)]
+2018-08-30T08:30:21.968Z - error: uncaughtException: ENOENT: no such file or directory, scandir 'C:\Users\56160\AppData\Local\Temp\jsreport\autocleanup' date=Thu Aug 30 2018 15:30:21 GMT+0700 (SE Asia Standard Time), pid=10428, uid=null, gid=null, cwd=C:\Users\56160\Desktop\jsreport-win, execPath=C:\Program Files\nodejs\node.exe, version=v8.11.3, argv=[C:\Program Files\nodejs\node.exe, C:\Users\56160\AppData\Roaming\npm\node_modules\jsreport-cli\cli.js, start], rss=75284480, heapTotal=80785408, heapUsed=69136024, external=1165163, loadavg=[0, 0, 0], uptime=626719.2003632, trace=[column=18, file=fs.js, function=Object.fs.readdirSync, line=904, method=readdirSync, native=false, column=20, file=C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js, function=null, line=98, method=null, native=false, column=null, file=null, function=Array.forEach, line=null, method=forEach, native=false, column=13, file=C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js, function=Reaper.start, line=97, method=start, native=false, column=14, file=C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js, function=Timeout.setInterval [as _onTimeout], line=676, method=setInterval [as _onTimeout], native=false, column=11, file=timers.js, function=ontimeout, line=498, method=null, native=false, column=5, file=timers.js, function=Timer.unrefdHandle, line=611, method=unrefdHandle, native=false], stack=[Error: ENOENT: no such file or directory, scandir 'C:\Users\56160\AppData\Local\Temp\jsreport\autocleanup',     at Object.fs.readdirSync (fs.js:904:18),     at C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js:98:20,     at Array.forEach (<anonymous>),     at Reaper.start (C:\Users\56160\Desktop\jsreport-win\node_modules\reap2\index.js:97:13),     at Timeout.setInterval [as _onTimeout] (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js:676:14),     at ontimeout (timers.js:498:11),     at Timer.unrefdHandle (timers.js:611:5)]
+2018-08-31T03:10:08.238Z - error: Error during processing request at http://localhost:5488/api/report/Quotation-2, details: SyntaxError: Unexpected token < in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\request.js:39:17)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\request.js:30:23)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\render.js:111:19)
+    at Reporter.render (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js:250:12)
+    at Object.reporter.express.render (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:44:14)
+    at app.post (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:74:22)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:275:10)
+2018-08-31T03:10:10.589Z - error: Error during processing request at http://localhost:5488/api/report/Quotation-2, details: SyntaxError: Unexpected token < in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\request.js:39:17)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\request.js:30:23)
+    at module.exports (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\render\render.js:111:19)
+    at Reporter.render (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-core\lib\reporter.js:250:12)
+    at Object.reporter.express.render (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:44:14)
+    at app.post (C:\Users\56160\Desktop\jsreport-win\node_modules\jsreport-express\lib\routes.js:74:22)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\56160\Desktop\jsreport-win\node_modules\express\lib\router\index.js:275:10)

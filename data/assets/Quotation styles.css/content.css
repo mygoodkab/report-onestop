@@ -1,0 +1,168 @@
+img {
+    width: 50px;
+    height: 40px;
+}
+.page-break	{ display: block; page-break-before: always; }
+p {
+    padding:0px;
+    margin:0px;
+    line-height:15px;
+}
+
+.quotation-box {
+    margin:auto;
+    padding: 5% 10% 0% 10%;
+}
+
+.print-on {
+    text-align: right;
+    font-size: 13px;
+    margin-right: -12px;
+    margin-bottom: -12px;
+}
+
+.font-10 {
+   font-size:13px;   
+}
+
+.font-12 {
+   font-size:15.6px   
+}
+
+
+.font-14 {
+   font-size:18.2px;   
+}
+
+.header {
+    text-align: center;
+    font-size: 21px;
+}
+
+.table {
+    font-size: 15.6px 
+}
+
+.box {
+    border: 1px solid black;
+}
+
+.contact{
+    padding-top:1%;
+    padding-bottom:1%;
+    height:11%;
+}
+
+.buyer {
+    padding-top:1%;
+    padding-bottom:1%;
+    height:10%;
+}
+
+.invoice, .date, .supplier-ref, .other-ref{
+    height:5.45%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+
+.blank-box {
+    height: 10%;
+}
+
+.border-buttom-left div {
+    border-bottom:none;
+    border-left:none;
+}
+
+.items-header div {
+     text-align:center;
+     height: 22px;
+     font-size:13px;   
+ }
+ 
+.items-box div {
+     text-align:center;
+     height:100%;
+
+ }
+ .items-box {
+     position: absolute;
+     width: 100%;
+     height: 350px;
+ }
+ 
+ .items-box-long {
+     position: absolute;
+     width: 100%;
+     height: 450px;
+     border-bottom:1px solid;
+ }
+ 
+.items-box-long  div {
+     text-align:center;
+     height:100%;
+ }
+ 
+.items-list div {
+     /*text-align:right;*/
+     margin-top: -32%;
+ }
+ 
+.image-table {
+     width:8.4%; 
+     padding-left:1px;
+     padding-right:1px
+ }
+ 
+.description  {
+     width: 32.8%;
+ }
+ 
+.quantity {
+     width: 11.4%;
+ }
+ 
+.rate {
+      width: 9.5%;
+ }
+ 
+.per {
+      width: 4.4%;
+      padding-left: 0px;
+      padding-right: 0px;
+ }
+ 
+.amount {
+       width: 16.8%;
+}
+
+.items-summary {
+    height:22px;
+    text-align:right;
+    vertical-align:middle;
+}
+
+.footer {
+    height:27%;
+}
+
+.declaration p {
+    font-size:14px;
+    font-family: 'cordia' !important;
+    margin-right: -15px;
+}
+
+.footer-box {
+    text-align:right; 
+    margin-top:7.5%;
+    padding-right:5px; 
+    border-bottom:none;
+    border-right:none;
+}
+
+.endding {
+    padding-top:10px;
+    text-align:right; 
+}
+
+
