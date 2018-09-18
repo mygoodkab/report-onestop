@@ -43,7 +43,7 @@
                   <div class="col-xs-6">
                      <div class="row">
                         <div class="col-xs-12 contact box">
-                           <p style="line-height:25px;"> <b> {{company}} </b></p>
+                           <p style="line-height:25px;"> <b> {{company}} {{name}}</b></p>
                            <p > Tel: {{tel}} </p>
                            <p> Fax: {{fax}} </p>
                            <p> {{name}} </p>
@@ -52,15 +52,27 @@
                         </div>
                         <div class="col-xs-12 buyer box font-10" style="border-top:none; border-bottom:none;">
                            <span> Buyer </span> <br/>
-                           <span><b> {{buyer}} </b></span>
+                           <span><b>
+                               {{#if buyer.companyname}}   
+                                    {{buyer.companyname}}
+                               {{else}}
+                                     {{buyer.firstname}}  {{buyer.lastname}}
+                               {{/if}}
+                                </b></span><br/>
+                           <span><b> {{buyer.tel}} </b></span><br/>
+                           <span><b> {{buyer.email}} </b></span>
                         </div>
                      </div>
                   </div>
                   <div class="col-xs-6 ">
                      <div class="row border-buttom-left">
                         <div class="col-xs-6 box invoice" >
-                           <p class="font-10">  Invoice No. </p>
-                           <p style="padding-bottom:5px;"><b>  {{quotationNo}}  </b></p>
+                           <p class="font-10">  Quotation No. </p>
+                           <p style="padding-bottom:5px;"><b>  {{invoiceNo}} 
+                             {{#if subInvoiceNo}} 
+                                -{{subInvoiceNo}}
+                             {{/if}}
+                           </b></p>
                         </div>
                         <div class="col-xs-6 box date">
                            <p class="font-10">  Dated </p>
@@ -68,11 +80,11 @@
                         </div>
                         <div class="col-xs-6 box supplier-ref">
                            <p class="font-10">  Supplier's Ref. </p>
-                           <p>   </p>
+                           <p> {{supplier_ref}}  </p>
                         </div>
                         <div class="col-xs-6 box other-ref">
                            <p class="font-10">  Other Reference(s) </p>
-                           <p>  </p>
+                           <p> {{other_ref}} </p>
                         </div>
                         <div class="col-xs-12 box blank-box">
                         </div>
@@ -128,64 +140,6 @@
                      <div style="position:relative; ">
                         <div class="row" style="position:absolute; width:104%; padding-top:10px;">
                            {{#each items}}
-                           {{!-- IF type is  full process  --}}
-                           {{#if isFull}}
-                              <div class="col-xs-12 font-10" >
-                              {{#if imgQuo}}
-                              <div class="row" >
-                                 <div class="col-xs-1 image-table" style="text-align:center;  ">
-                                    <img src="https://api.onestop.codth.com/file/image/{{ imgQuo }}" alt="Italian Trulli" style="left: 3px; position: absolute;">
-                                 </div>
-                                 {{else}}
-                                 <div class="row" style="margin-top:-20px;">
-                                    {{/if}}
-                                    {{#if jobNo}}
-                                    <div class="col-xs-2" >
-                                       {{ jobNo }}
-                                    </div>
-                                    {{/if}}
-                                    <div class="col-xs-6 description" style="padding-left:0.5%; padding-right:0.5%;  text-align:left;">
-                                       <span class="font-12"><b> {{ job_type }} </b></span> <br>
-                                    </div>
-                                    <div class="col-xs-1 quantity" style="padding-left:0.5%; padding-right:0.5%; text-align:right;">
-                                    </div>
-                                    <div class="col-xs-1 rate" style="padding-left:0.5%; padding-right:0.5%; text-align:right;">
-                                    </div>
-                                    <div class="col-xs-1 per" style="padding-left:1%; padding-right:0.5%; text-align:center; ">
-                                    </div>
-                                    <div class="col-xs-2 amount" style="padding-left:0.5%; padding-right:0.5%; text-align:right;">
-                                    </div>
-                                 </div>
-                                 <div>
-                                    {{#each process}}
-                                    <div class="row" >
-                                       <div class="col-xs-1 image-table" style="text-align:center; ">
-                                       </div>
-                                       <div class="col-xs-2" >
-                                       </div>
-                                       <div class="col-xs-6 description" style="padding-left:0.5%; padding-right:0.5%;  text-align:left;">
-                                          <div style="padding-bottom:10px;">
-                                             <span><i> &emsp; {{ remarkQuotation }} </i></span><br>
-                                          </div>
-                                       </div>
-                                       <div class="col-xs-1 quantity" style="padding-left:0.5%; padding-right:0.5%; text-align:right;">
-                                          {{ qty }} {{ per }}
-                                       </div>
-                                       <div class="col-xs-1 rate" style="padding-left:0.5%; padding-right:0.5%; text-align:right;">
-                                          {{ rate }}
-                                       </div>
-                                       <div class="col-xs-1 per" style="padding-left:1%; padding-right:0.5%; text-align:center; ">
-                                          {{ per }}
-                                       </div>
-                                       <div class="col-xs-2 amount" style="padding-left:0.5%; padding-right:0.5%; text-align:right;">
-                                          {{ amount }}
-                                       </div>
-                                    </div>
-                                    {{/each}}
-                                 </div>
-                              </div>
-                           {{!-- IF type is not full process  --}}
-                           {{else}}
                            <div class="col-xs-12 font-10" >
                               {{#if imgQuo}}
                               <div class="row" >
@@ -204,6 +158,7 @@
                                        <span class="font-12"><b> {{ job_type }} </b></span> <br>
                                     </div>
                                     <div class="col-xs-1 quantity" style="padding-left:0.5%; padding-right:0.5%; text-align:right;">
+                                       {{incomingQty}} {{unit}}
                                     </div>
                                     <div class="col-xs-1 rate" style="padding-left:0.5%; padding-right:0.5%; text-align:right;">
                                     </div>
@@ -213,35 +168,64 @@
                                     </div>
                                  </div>
                                  <div>
+                                     
                                     {{#each process}}
                                     <div class="row" >
-                                       <div class="col-xs-1 image-table" style="text-align:center; ">
+                                      <div class="col-xs-1 image-table" style="text-align:center; ">
                                        </div>
                                        <div class="col-xs-2" >
                                        </div>
                                        <div class="col-xs-6 description" style="padding-left:0.5%; padding-right:0.5%;  text-align:left;">
-                                          <div style="padding-bottom:10px;">
-                                             <span><i><b> &emsp; {{ name }} </b></i >  </span><br>
-                                             <span><i> &emsp; {{ remarkQuotation }} </i></span><br>
+                                          <div style="padding-bottom:5px;">
+                                             <span><i><b> &emsp; 
+                                                    {{#if setting}}  {{setting}}
+                                                    {{else}} {{ view.en }}
+                                                    {{/if}}
+                                            </b></i >  </span><br>
+                                             <span><i> &emsp; {{ remarkInvoice  }} </i></span><br>
                                           </div>
                                        </div>
                                        <div class="col-xs-1 quantity" style="padding-left:0.5%; padding-right:0.5%; text-align:right;">
-                                          {{ qty }} {{ per }}
+                                          {{ qtyProcess }} {{ unitProcess }}
                                        </div>
                                        <div class="col-xs-1 rate" style="padding-left:0.5%; padding-right:0.5%; text-align:right;">
                                           {{ rate }}
                                        </div>
                                        <div class="col-xs-1 per" style="padding-left:1%; padding-right:0.5%; text-align:center; ">
-                                          {{ per }}
+                                          {{ unitProcess }}
                                        </div>
                                        <div class="col-xs-2 amount" style="padding-left:0.5%; padding-right:0.5%; text-align:right;">
                                           {{ amount }}
                                        </div>
                                     </div>
                                     {{/each}}
+                                    
+                                    <div class="row" >
+                                      <div class="col-xs-1 image-table" style="text-align:center; ">
+                                       </div>
+                                       <div class="col-xs-2" >
+                                       </div>
+                                       <div class="col-xs-6 description" style="padding-left:0.5%; padding-right:0.5%;  text-align:left;">
+                           
+                                       </div>
+                                       <div class="col-xs-1 quantity" style="padding-left:0.5%; padding-right:0.5%; text-align:right;">
+                                          
+                                       </div>
+                                       <div class="col-xs-1 rate" style="padding-left:0.5%; padding-right:0.5%; text-align:right;">
+                                         
+                                       </div>
+                                       <div class="col-xs-1 per" style="padding-left:1%; padding-right:0.5%; text-align:center; ">
+                                        
+                                       </div>
+                                       <div class="col-xs-2 amount" style="padding-left:0.5%; padding-right:0.5%; text-align:right;">
+                                         <hr style=" margin-top: -10px;margin-bottom: -10px; margin-left: 5px;">
+                                         <br> {{ totalJob }}
+                                       </div>
+                                       
+                                    </div>
+                                    
                                  </div>
                               </div>
-                              {{/if}}
                               {{/each}}
                            </div>
                         </div>
@@ -249,7 +233,7 @@
                         {{!--  ITEMS SUMMARY--}} 
                         <div class="row box " style="margin-top:450px; border-bottom:none;">
                            <div class="col-xs-7 font-10 items-summary" style="padding-top: 0.3%; "> Total </div>
-                           <div class="col-xs-5 font-14 items-summary"><b> {{total}} Bath </b></div>
+                           <div class="col-xs-5 font-14 items-summary"><b> {{total}} Baht </b></div>
                         </div>
                         {{!-- END ITEMS SUMMARY--}} 
                      </div>

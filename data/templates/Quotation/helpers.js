@@ -54,8 +54,8 @@ var a = ['','One ','Two ','Three ','Four ', 'Five ','Six ','Seven ','Eight ','Ni
 var b = ['', '', 'Twenty','Thirty','Forty','Fifty', 'Sixty','Seventy','Eighty','Ninety'];
 
 function inWords (str) {
-    
-    var num =  Number(str.replace(/,/g,""));
+    var num = str;
+    // var num =  Number(str.replace(/,/g,""));
     if (num === 0) return 'Zero';
     if ((num = num.toString()).length > 9) return 'Over Flow';
     n = ('000000000' + num).substr(-9).match(/^(\d{2})(\d{2})(\d{2})(\d{1})(\d{2})$/);

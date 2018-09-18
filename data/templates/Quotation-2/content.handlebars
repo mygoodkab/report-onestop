@@ -43,7 +43,7 @@
                   <div class="col-xs-6">
                      <div class="row">
                         <div class="col-xs-12 contact box">
-                           <p style="line-height:25px;"> <b> {{company}} </b></p>
+                           <p style="line-height:25px;"> <b> {{company}} {{name}}</b></p>
                            <p > Tel: {{tel}} </p>
                            <p> Fax: {{fax}} </p>
                            <p> {{name}} </p>
@@ -52,15 +52,21 @@
                         </div>
                         <div class="col-xs-12 buyer box font-10" style="border-top:none; border-bottom:none;">
                            <span> Buyer </span> <br/>
-                           <span><b> {{buyer}} </b></span>
+                           <span><b> {{buyer.firstname}}  {{buyer.lastname}} </b></span><br/>
+                           <span><b> {{buyer.tel}} </b></span><br/>
+                           <span><b> {{buyer.email}} </b></span>
                         </div>
                      </div>
                   </div>
                   <div class="col-xs-6 ">
                      <div class="row border-buttom-left">
                         <div class="col-xs-6 box invoice" >
-                           <p class="font-10">  Invoice No. </p>
-                           <p style="padding-bottom:5px;"><b>  {{quotationNo}}  </b></p>
+                           <p class="font-10">  Quotation No. </p>
+                           <p style="padding-bottom:5px;"><b>  {{invoiceNo}} 
+                             {{#if subInvoiceNo}} 
+                                -{{subInvoiceNo}}
+                             {{/if}}
+                           </b></p>
                         </div>
                         <div class="col-xs-6 box date">
                            <p class="font-10">  Dated </p>
@@ -146,6 +152,7 @@
                                        <span class="font-12"><b> {{ job_type }} </b></span> <br>
                                     </div>
                                     <div class="col-xs-1 quantity" style="padding-left:0.5%; padding-right:0.5%; text-align:right;">
+                                       {{qty}} {{per}}
                                     </div>
                                     <div class="col-xs-1 rate" style="padding-left:0.5%; padding-right:0.5%; text-align:right;">
                                     </div>
@@ -164,25 +171,25 @@
                                            <div class="col-xs-2" >
                                            </div>
                                            <div class="col-xs-6 description" style="padding-left:0.5%; padding-right:0.5%;  text-align:left;">
-                                              <div style="padding-bottom:10px;">
+                                              <div style="padding-bottom:5px;">
                                                  <span><i><b> &emsp; {{ view.en }} </b></i >  </span><br>
                                                  {{#if data.centerStone}}
                                                       <div class="row" style="width:245%">
                                                         <div  class="col-xs-4" style="width:231px"><span><i> &emsp; Center Stone : {{ data.centerStone }} </i></span></div> 
-                                                        <div  class="col-xs-2" style="text-align: right; padding:0px; width:78px;"> <span> 1000.00 pcs </span></div>
-                                                        <div  class="col-xs-2" style="text-align: right; padding:0px; width:64px;"> <span> 10 </span></div>
+                                                        <div  class="col-xs-2" style="text-align: right; padding:0px; width:78px;"> <span> {{ data.centerStoneQty }} pcs </span></div>
+                                                        <div  class="col-xs-2" style="text-align: right; padding:0px; width:64px;"> <span> {{ data.centerStoneRate }} </span></div>
                                                         <div  class="col-xs-2" style="text-align: right; padding:0px; width:30px;"> <span> pcs </span></div>
-                                                        <div  class="col-xs-2" style="text-align: right; padding:0px; width:115px;"> <span> 1000 </span></div>
+                                                        <div  class="col-xs-2" style="text-align: right; padding:0px; width:115px;"> <span> {{ data.centerStoneAmount }} </span></div>
                                                       </div>
                                                       
                                                  {{/if}}
                                                  {{#if data.sideStone}}
                                                     <div class="row" style="width:245%">
                                                         <div  class="col-xs-4" style="width:231px"><span><i> &emsp; Side stone : {{ data.sideStone }} </i></span></div> 
-                                                        <div  class="col-xs-2" style="text-align: right; padding:0px; width:78px;"> <span> 1000.00 pcs </span></div>
-                                                        <div  class="col-xs-2" style="text-align: right; padding:0px; width:64px;"> <span> 10 </span></div>
+                                                        <div  class="col-xs-2" style="text-align: right; padding:0px; width:78px;"> <span> {{ data.sideStoneQty }}  pcs </span></div>
+                                                        <div  class="col-xs-2" style="text-align: right; padding:0px; width:64px;"> <span> {{ data.sideStoneRate }}  </span></div>
                                                         <div  class="col-xs-2" style="text-align: right; padding:0px; width:30px;"> <span> pcs </span></div>
-                                                        <div  class="col-xs-2" style="text-align: right; padding:0px; width:115px;"> <span> 1000 </span></div>
+                                                        <div  class="col-xs-2" style="text-align: right; padding:0px; width:115px;"> <span> {{ data.sideStoneAmount }}  </span></div>
                                                       </div>
      
                                                  {{/if}}
@@ -190,12 +197,22 @@
                                                        {{#each data.other}}
                                                     <div class="row" style="width:245%">
                                                         <div  class="col-xs-4" style="width:231px"><span><i> &emsp; Other stone : {{ otherStone }} </i></span></div> 
-                                                        <div  class="col-xs-2" style="text-align: right; padding:0px; width:78px;"> <span> 1000.00 pcs </span></div>
-                                                        <div  class="col-xs-2" style="text-align: right; padding:0px; width:64px;"> <span> 10 </span></div>
+                                                        <div  class="col-xs-2" style="text-align: right; padding:0px; width:78px;"> <span> {{ otherStoneQty }} pcs </span></div>
+                                                        <div  class="col-xs-2" style="text-align: right; padding:0px; width:64px;"> <span> {{ otherStoneRate }} </span></div>
                                                         <div  class="col-xs-2" style="text-align: right; padding:0px; width:30px;"> <span> pcs </span></div>
-                                                        <div  class="col-xs-2" style="text-align: right; padding:0px; width:115px;"> <span> 1000 </span></div>
+                                                        <div  class="col-xs-2" style="text-align: right; padding:0px; width:115px;"> <span> {{ otherStoneAmount }} </span></div>
                                                       </div>
                                                        {{/each}}
+                                                 {{/if}}
+                                                 {{#if data.metalWeight}}
+                                                    <div class="row" style="width:245%">
+                                                        <div  class="col-xs-4" style="width:231px"><span><i> &emsp; Metal </i></span></div> 
+                                                        <div  class="col-xs-2" style="text-align: right; padding:0px; width:78px;"> <span> {{ data.metalWeight }}  gms </span></div>
+                                                        <div  class="col-xs-2" style="text-align: right; padding:0px; width:64px;"> <span> {{ data.metalRate }}  </span></div>
+                                                        <div  class="col-xs-2" style="text-align: right; padding:0px; width:30px;"> <span> gms </span></div>
+                                                        <div  class="col-xs-2" style="text-align: right; padding:0px; width:115px;"> <span> {{ data.sideStoneAmount }}  </span></div>
+                                                      </div>
+     
                                                  {{/if}}
                                               </div>
                                            </div>
@@ -221,7 +238,7 @@
                                            <div class="col-xs-2" >
                                            </div>
                                            <div class="col-xs-6 description" style="padding-left:0.5%; padding-right:0.5%;  text-align:left;">
-                                              <div style="padding-bottom:10px;">
+                                              <div style="padding-bottom:5px;">
                                                  <span><i><b> &emsp; {{ view.en }} </b></i >  </span><br>
                                                  <span><i> &emsp; {{ remarkQuotation }} </i></span><br>
                                               </div>

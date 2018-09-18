@@ -2,16 +2,22 @@
     "pages":[
         {   "current_page":"1",
             "max_page":"2",
-            "company":"1Stop Jewelry Co,. Ltd Thapra",
+            "company":"1Stop Jewelry Co,. Ltd",
             "tel":"02-891-5030 ",
             "fax":"02-891-5032",
             "name":"Thapra",
             "none":"none",
             "email":"onestop.thaprabranch@gmail.com",
-            "quotationNo":"123456",
+            "invoiceNo":"123456",
+            "subInvoiceNo":"1",
             "supplier_ref":"",
             "other_ref":"",
-            "buyer":"202 BABY",
+            "buyer":{
+                "firstname":"Baby",
+                "lastname":"202",
+                "email":"paxxxx@gmail.com",
+                "tel":"021xxxxxx"
+            },
             "total":"1.00",
             "date_now":"2 Aug 2018",
             "time_now":"11:60",
@@ -23,7 +29,7 @@
                                     {"view":{"en":"Wax Injection"},"name":"Wax Injection", "remarkQuotation":"remarkQuotation" ,"rate":"10","amount":"100", "qty":"1000.00","per":"pcs"},
                                     {"view":{"en":"Casting"},"name":"Casting", "remarkQuotation":"remarkQuotation","rate":"10","amount":"100", "qty":"100.00","per":"pcs"},
                                     {   
-                                        "isSetting":"true",
+                                        "setting":"Setting name A",
                                         "view":{"en":"Setting"},
                                         "name":"setting", 
                                         "remarkQuotation":"remarkQuotation",
@@ -34,20 +40,14 @@
                                         "data": { 
                                             "centerStone": "name A",
                                             "centerSetting": "setting-002",
-                                            "centerStoneRate":"10000",
-                                            "centerStoneAmount":"2000", 
                                             "centerStoneQty":10,
                                             "sideStone": "name B",
                                             "sideSetting": "setting-003",
-                                            "sideStoneRate":"10000",
-                                            "sideStoneAmount":"2000",
                                             "sideStoneQty":10, 
                                             "other":[
                                         		{ 
                                         			"otherStone":"name C",
                                         			"otherSetting":"a",
-                                        			"otherStoneRate":"1000",
-                                         			"otherStoneAmount":"2000",
                                         			"otherStoneQty": 20
                                         		}
                                         	],
@@ -57,10 +57,10 @@
                                          }
                                     }
                              ],
-                         "qty":"10.0000",
+                         "qty":"10",
                          "rate":"100.00",
                          "amount":"1000.00",
-                         "per":"Gms",
+                         "per":"pcs",
                          "imgQuo":"5b0fa973c7427101a29a62f2"
                      },
                      {
@@ -73,7 +73,7 @@
                          "qty":"10",
                          "rate":"10.00",
                          "amount":"1000.00",
-                         "per":"Pcs",
+                         "per":"pcs",
                          "imgQuo":"5b0fa973c7427101a29a62f2",
                          "remarkQuotation":[]
                      }
