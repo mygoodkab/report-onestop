@@ -43,10 +43,10 @@
                   <div class="col-xs-6">
                      <div class="row">
                         <div class="col-xs-12 contact box">
-                           <p style="line-height:25px;"> <b> {{company}} {{name}}</b></p>
+                           <p style="line-height:25px;"> <b> {{company}} {{name.en}}</b></p>
                            <p > Tel: {{tel}} </p>
                            <p> Fax: {{fax}} </p>
-                           <p> {{name}} </p>
+                           <p> {{name.en}} </p>
                            <p> {{none}} </p>
                            <p> Email: {{email}} </p>
                         </div>
@@ -161,7 +161,7 @@
                                        {{incomingQty}} {{unit}}
                                     </div>
                                     <div class="col-xs-1 rate" style="padding-left:0.5%; padding-right:0.5%; text-align:right;">
-                                    </div>
+                                    </div> 
                                     <div class="col-xs-1 per" style="padding-left:1%; padding-right:0.5%; text-align:center; ">
                                     </div>
                                     <div class="col-xs-2 amount" style="padding-left:0.5%; padding-right:0.5%; text-align:right;">
@@ -178,26 +178,55 @@
                                        <div class="col-xs-6 description" style="padding-left:0.5%; padding-right:0.5%;  text-align:left;">
                                           <div style="padding-bottom:5px;">
                                              <span><i><b> &emsp; 
-                                                    {{#if setting}}  {{setting}}
-                                                    {{else}} {{ view.en }}
-                                                    {{/if}}
+                                                    {{ view.en }}
+                                    
                                             </b></i >  </span><br>
                                              <span><i> &emsp; {{ remarkInvoice  }} </i></span><br>
                                           </div>
                                        </div>
-                                       <div class="col-xs-1 quantity" style="padding-left:0.5%; padding-right:0.5%; text-align:right;">
-                                          {{ qtyProcess }} {{ unitProcess }}
+                                       <div class="col-xs-1 quantity" style="padding-top:2.5%; padding-left:0.5%; padding-right:0.5%; text-align:right;">
+                                          {{ qtyProcess }} {{ qtyUnit }}
                                        </div>
-                                       <div class="col-xs-1 rate" style="padding-left:0.5%; padding-right:0.5%; text-align:right;">
+                                       <div class="col-xs-1 rate" style="padding-top:2.5% ;padding-left:0.5%; padding-right:0.5%; text-align:right;">
                                           {{ rate }}
                                        </div>
-                                       <div class="col-xs-1 per" style="padding-left:1%; padding-right:0.5%; text-align:center; ">
+                                       <div class="col-xs-1 per" style="padding-top:2.5%; padding-left:1%; padding-right:0.5%; text-align:center; ">
                                           {{ unitProcess }}
                                        </div>
-                                       <div class="col-xs-2 amount" style="padding-left:0.5%; padding-right:0.5%; text-align:right;">
+                                       <div class="col-xs-2 amount" style="padding-top:2.5%; padding-left:0.5%; padding-right:0.5%; text-align:right;">
                                           {{ amount }}
                                        </div>
                                     </div>
+                                    
+                                    <!-- Other Remark -->
+                                        {{#if otherRemark}}
+                                           {{#each otherRemark}}
+                                             <div class="row" >
+                                                 
+                                              <div class="col-xs-1 image-table" style="text-align:center; ">
+                                               </div>
+                                               <div class="col-xs-2" >
+                                               </div>
+                                               <div class="col-xs-6 description" style="padding-left:0.5%; padding-right:0.5%;  text-align:left;">
+                                                  <div style="padding-bottom:5px;">
+                                                     <span><i> &emsp; {{ remark  }}  </i></span><br>
+                                                  </div>
+                                               </div>
+                                               <div class="col-xs-1 quantity" style="padding-left:0.5%; padding-right:0.5%; text-align:right;">
+                                                  {{ qty }} {{ qtyUnit }}
+                                               </div>
+                                               <div class="col-xs-1 rate" style=" ;padding-left:0.5%; padding-right:0.5%; text-align:right;">
+                                                  {{ rate }}
+                                               </div>
+                                               <div class="col-xs-1 per" style="padding-left:1%; padding-right:0.5%; text-align:center; ">
+                                                  {{ unit }}
+                                               </div>
+                                               <div class="col-xs-2 amount" style="padding-left:0.5%; padding-right:0.5%; text-align:right;">
+                                                  {{ amount }}
+                                               </div>
+                                            </div>
+                                            {{/each}}
+                                        {{/if}}
                                     {{/each}}
                                     
                                     <div class="row" >
@@ -217,10 +246,12 @@
                                        <div class="col-xs-1 per" style="padding-left:1%; padding-right:0.5%; text-align:center; ">
                                         
                                        </div>
-                                       <div class="col-xs-2 amount" style="padding-left:0.5%; padding-right:0.5%; text-align:right;">
-                                         <hr style=" margin-top: -10px;margin-bottom: -10px; margin-left: 5px;">
-                                         <br> {{ totalJob }}
-                                       </div>
+                                       
+                                       <!-- Total Job -->
+                                       {{!--<div class="col-xs-2 amount" style="padding-left:0.5%; padding-right:0.5%; text-align:right;">--}}
+                                       {{!--  <hr style=" margin-top: -10px;margin-bottom: -10px; margin-left: 5px;">--}}
+                                       {{!--  <br> {{ totalJob }}--}}
+                                       {{!--</div>--}}
                                        
                                     </div>
                                     

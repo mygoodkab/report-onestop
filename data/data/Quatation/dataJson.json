@@ -7,7 +7,7 @@
             "fax":"02-891-5032",
             "name":"Thapra",
             "none":"none",
-            "email":"onestop.thaprabranch@gmail.com",
+            "email":"onestop.charoennakonbranch@gmail.com",
             "invoiceNo":"123456",
             "subInvoiceNo":"1",
             "supplier_ref":"x",
@@ -26,10 +26,11 @@
                          "jobNo":"1800001-1",
                          "job_type":"Full process",
                          "process":[
-                                    {"view":{"en":"Wax Injection"},"name":"Wax Injection", "remarkInvoice":"remarkInvoice" ,"rate":"10","amount":"100", "qtyProcess":"1000.00","unitProcess":"pcs"},
-                                    {"view":{"en":"Casting"},"name":"Casting", "remarkInvoice":"remarkInvoice","rate":"10","amount":"100", "qtyProcess":"100.00","unitProcess":"pcs"},
+                                    {"view":{"en":"Wax Injection"},"qtyUnit":"gms","name":"Wax Injection", "remarkInvoice":"remarkInvoice" ,"rate":"10","amount":"100", "qtyProcess":"1000.00","unitProcess":"pcs"},
+                                    {"view":{"en":"Casting"},"qtyUnit":"gms","name":"Casting", "remarkInvoice":"remarkInvoice","rate":"10","amount":"100", "qtyProcess":"100.00","unitProcess":"pcs"},
                                     {   
                                         "setting":"Setting name A",
+                                        "qtyUnit":"gms",
                                         "view":{"en":"Setting"},
                                         "name":"setting", 
                                         "remarkInvoice":"remarkInvoice",
@@ -54,7 +55,15 @@
                                             "metalWeight": "10",
                                             "stoneWeight": "10",
                                             "remark": null
-                                         }
+                                         },
+                                         "otherRemark":[{
+                                             "remark" : "remark",
+                                             "qty":"10",
+                                             "qtyUnit":"pcs",
+                                             "unit":"gms",
+                                             "rate":"10000",
+                                             "amount":"10000"
+                                         }]
                                     }
                              ],
                          "qty":"10",
@@ -68,9 +77,9 @@
                      {
                          "jobNo":"1800001-2",
                          "job_type":"Select Process",
-                         "process":[{"view":{"en":"Wax Injection"},"name":"Wax Injection", "remarkInvoice":"remarkInvoice" ,"rate":"10","amount":"100", "qtyProcess":"100.00","unitProcess":"pcs"},
-                                    {"view":{"en":"Casting"},"name":"Casting", "remarkInvoice":"remarkInvoice","rate":"10","amount":"100", "qtyProcess":"100.00","unitProcess":"pcs"},
-                                    {"view":{"en":"Wax Injection"},"name":"Wax Injection", "remarkInvoice":"remarkInvoice","rate":"10","amount":"100", "qtyProcess":"100.00","unitProcess":"pcs"}
+                         "process":[{"view":{"en":"Wax Injection"},"qtyUnit":"gms","name":"Wax Injection", "remarkInvoice":"remarkInvoice" ,"rate":"10","amount":"100", "qtyProcess":"100.00","unitProcess":"pcs"},
+                                    {"view":{"en":"Casting"},"name":"Casting","qtyUnit":"gms", "remarkInvoice":"remarkInvoice","rate":"10","amount":"100", "qtyProcess":"100.00","unitProcess":"pcs"},
+                                    {"view":{"en":"Wax Injection"},"qtyUnit":"gms","name":"Wax Injection", "remarkInvoice":"remarkInvoice","rate":"10","amount":"100", "qtyProcess":"100.00","unitProcess":"pcs"}
                                     ],
                          "qty":"10",
                          "rate":"10.00",
