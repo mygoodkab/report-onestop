@@ -11706,3 +11706,306 @@ Expecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SE
 2018-09-21T03:59:08.123Z - info: Starting rendering request 36 (user: null)
 2018-09-21T03:59:08.124Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
 2018-09-21T03:59:09.864Z - info: Rendering request 36 finished in 1741 ms
+2018-09-21T10:19:22.581Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-09-21T10:19:22.582Z - info: Searching for available extensions in C:\Users\56160\Desktop\jsreport\
+2018-09-21T10:19:22.593Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\56160\Desktop\jsreport\
+2018-09-21T10:19:22.657Z - info: Found 31 extensions
+2018-09-21T10:19:23.050Z - info: Using extension handlebars
+2018-09-21T10:19:23.055Z - info: Using extension import-export
+2018-09-21T10:19:23.320Z - info: Using extension templates
+2018-09-21T10:19:23.329Z - info: Using extension jsrender
+2018-09-21T10:19:23.331Z - info: Using extension freeze
+2018-09-21T10:19:23.334Z - info: Using extension cli
+2018-09-21T10:19:23.336Z - info: Using extension express
+2018-09-21T10:19:23.589Z - info: Using extension debug
+2018-09-21T10:19:23.592Z - info: Using extension tags
+2018-09-21T10:19:23.600Z - info: Using extension data
+2018-09-21T10:19:23.605Z - info: Using extension fs-store
+2018-09-21T10:19:23.976Z - info: Using extension authorization
+2018-09-21T10:19:23.981Z - info: Using extension html-to-xlsx
+2018-09-21T10:19:24.196Z - info: html-to-xlsx detected chrome as available html engine
+2018-09-21T10:19:24.197Z - info: Using extension child-templates
+2018-09-21T10:19:24.202Z - info: Using extension browser-client
+2018-09-21T10:19:24.206Z - info: Using extension chrome-pdf
+2018-09-21T10:19:24.214Z - info: Using extension pdf-utils
+2018-09-21T10:19:24.339Z - info: Using extension version-control
+2018-09-21T10:19:24.392Z - info: Using extension reports
+2018-09-21T10:19:24.396Z - info: Using extension text
+2018-09-21T10:19:24.396Z - info: Using extension base
+2018-09-21T10:19:24.399Z - info: Using extension studio
+2018-09-21T10:19:24.460Z - info: Using extension licensing
+2018-09-21T10:19:24.489Z - info: Using extension scripts
+2018-09-21T10:19:24.494Z - info: Using extension assets
+2018-09-21T10:19:24.505Z - info: Using extension scheduling
+2018-09-21T10:19:24.542Z - info: Using extension xlsx
+2018-09-21T10:19:24.597Z - info: Using extension sample-template
+2018-09-21T10:19:24.600Z - info: Using extension resources
+2018-09-21T10:19:24.602Z - info: Using extension public-templates
+2018-09-21T10:19:24.615Z - info: fs store is persisting using fs
+2018-09-21T10:19:24.615Z - info: fs store is synchronizing using fs
+2018-09-21T10:19:24.617Z - info: fs store is loading data
+2018-09-21T10:19:24.692Z - info: fs store is initialized successfully
+2018-09-21T10:19:24.706Z - info: Creating default express app.
+2018-09-21T10:19:24.739Z - info: jsreport server successfully started on http port: 5488
+2018-09-21T10:19:24.782Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-09-21T10:19:24.821Z - info: Verifying license key free
+2018-09-21T10:19:24.822Z - info: Using free license
+2018-09-21T10:19:24.825Z - info: reporter initialized
+2018-09-21T10:19:30.191Z - info: Starting rendering request 1 (user: null)
+2018-09-21T10:19:30.192Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-09-21T10:19:33.455Z - info: Rendering request 1 finished in 3265 ms
+2018-09-24T02:26:27.558Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-09-24T02:26:27.559Z - info: Searching for available extensions in C:\Users\56160\Desktop\jsreport\
+2018-09-24T02:26:27.598Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\56160\Desktop\jsreport\
+2018-09-24T02:26:27.647Z - info: Found 31 extensions
+2018-09-24T02:26:28.026Z - info: Using extension handlebars
+2018-09-24T02:26:28.034Z - info: Using extension import-export
+2018-09-24T02:26:28.288Z - info: Using extension templates
+2018-09-24T02:26:28.304Z - info: Using extension jsrender
+2018-09-24T02:26:28.304Z - info: Using extension freeze
+2018-09-24T02:26:28.304Z - info: Using extension cli
+2018-09-24T02:26:28.304Z - info: Using extension express
+2018-09-24T02:26:28.640Z - info: Using extension debug
+2018-09-24T02:26:28.640Z - info: Using extension tags
+2018-09-24T02:26:28.656Z - info: Using extension data
+2018-09-24T02:26:28.656Z - info: Using extension fs-store
+2018-09-24T02:26:29.124Z - info: Using extension authorization
+2018-09-24T02:26:29.130Z - info: Using extension html-to-xlsx
+2018-09-24T02:26:29.372Z - info: html-to-xlsx detected chrome as available html engine
+2018-09-24T02:26:29.372Z - info: Using extension child-templates
+2018-09-24T02:26:29.376Z - info: Using extension browser-client
+2018-09-24T02:26:29.380Z - info: Using extension chrome-pdf
+2018-09-24T02:26:29.387Z - info: Using extension pdf-utils
+2018-09-24T02:26:29.514Z - info: Using extension version-control
+2018-09-24T02:26:29.560Z - info: Using extension reports
+2018-09-24T02:26:29.565Z - info: Using extension text
+2018-09-24T02:26:29.566Z - info: Using extension base
+2018-09-24T02:26:29.569Z - info: Using extension studio
+2018-09-24T02:26:29.637Z - info: Using extension licensing
+2018-09-24T02:26:29.666Z - info: Using extension scripts
+2018-09-24T02:26:29.672Z - info: Using extension assets
+2018-09-24T02:26:29.685Z - info: Using extension scheduling
+2018-09-24T02:26:29.726Z - info: Using extension xlsx
+2018-09-24T02:26:29.796Z - info: Using extension sample-template
+2018-09-24T02:26:29.798Z - info: Using extension resources
+2018-09-24T02:26:29.800Z - info: Using extension public-templates
+2018-09-24T02:26:29.814Z - info: fs store is persisting using fs
+2018-09-24T02:26:29.814Z - info: fs store is synchronizing using fs
+2018-09-24T02:26:29.817Z - info: fs store is loading data
+2018-09-24T02:26:29.956Z - info: fs store is initialized successfully
+2018-09-24T02:26:29.973Z - info: Creating default express app.
+2018-09-24T02:26:30.012Z - info: jsreport server successfully started on http port: 5488
+2018-09-24T02:26:30.013Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-09-24T02:26:30.044Z - info: Verifying license key free
+2018-09-24T02:26:30.045Z - info: Using free license
+2018-09-24T02:26:30.048Z - info: reporter initialized
+2018-09-26T04:41:14.523Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-09-26T04:41:14.523Z - info: Searching for available extensions in C:\Users\56160\Desktop\jsreport\
+2018-09-26T04:41:14.574Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\56160\Desktop\jsreport\
+2018-09-26T04:41:14.641Z - info: Found 31 extensions
+2018-09-26T04:41:15.004Z - info: Using extension handlebars
+2018-09-26T04:41:15.004Z - info: Using extension import-export
+2018-09-26T04:41:15.313Z - info: Using extension templates
+2018-09-26T04:41:15.328Z - info: Using extension jsrender
+2018-09-26T04:41:15.328Z - info: Using extension freeze
+2018-09-26T04:41:15.328Z - info: Using extension cli
+2018-09-26T04:41:15.328Z - info: Using extension express
+2018-09-26T04:41:15.679Z - info: Using extension debug
+2018-09-26T04:41:15.679Z - info: Using extension tags
+2018-09-26T04:41:15.695Z - info: Using extension data
+2018-09-26T04:41:15.701Z - info: Using extension fs-store
+2018-09-26T04:41:16.335Z - info: Using extension authorization
+2018-09-26T04:41:16.353Z - info: Using extension html-to-xlsx
+2018-09-26T04:41:16.701Z - info: html-to-xlsx detected chrome as available html engine
+2018-09-26T04:41:16.701Z - info: Using extension child-templates
+2018-09-26T04:41:16.701Z - info: Using extension browser-client
+2018-09-26T04:41:16.701Z - info: Using extension chrome-pdf
+2018-09-26T04:41:16.723Z - info: Using extension pdf-utils
+2018-09-26T04:41:16.854Z - info: Using extension version-control
+2018-09-26T04:41:16.927Z - info: Using extension reports
+2018-09-26T04:41:16.930Z - info: Using extension text
+2018-09-26T04:41:16.932Z - info: Using extension base
+2018-09-26T04:41:16.934Z - info: Using extension studio
+2018-09-26T04:41:17.006Z - info: Using extension licensing
+2018-09-26T04:41:17.042Z - info: Using extension scripts
+2018-09-26T04:41:17.049Z - info: Using extension assets
+2018-09-26T04:41:17.062Z - info: Using extension scheduling
+2018-09-26T04:41:17.116Z - info: Using extension xlsx
+2018-09-26T04:41:17.172Z - info: Using extension sample-template
+2018-09-26T04:41:17.176Z - info: Using extension resources
+2018-09-26T04:41:17.178Z - info: Using extension public-templates
+2018-09-26T04:41:17.190Z - info: fs store is persisting using fs
+2018-09-26T04:41:17.191Z - info: fs store is synchronizing using fs
+2018-09-26T04:41:17.239Z - info: fs store is loading data
+2018-09-26T04:41:17.326Z - info: fs store is initialized successfully
+2018-09-26T04:41:17.342Z - info: Creating default express app.
+2018-09-26T04:41:17.378Z - info: jsreport server successfully started on http port: 5488
+2018-09-26T04:41:17.379Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-09-26T04:41:17.405Z - info: Verifying license key free
+2018-09-26T04:41:17.406Z - info: Using free license
+2018-09-26T04:41:17.409Z - info: reporter initialized
+2018-09-26T04:41:26.823Z - info: Starting rendering request 1 (user: null)
+2018-09-26T04:41:26.824Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-09-26T04:41:30.112Z - info: Rendering request 1 finished in 3290 ms
+2018-09-26T04:46:39.211Z - info: Starting rendering request 2 (user: null)
+2018-09-26T04:46:39.212Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: true }
+2018-09-26T04:46:40.823Z - info: Rendering request 2 finished in 1612 ms
+2018-09-26T04:46:48.287Z - info: Starting rendering request 3 (user: null)
+2018-09-26T04:46:48.288Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-09-26T04:46:49.757Z - info: Rendering request 3 finished in 1470 ms
+2018-09-26T04:47:36.208Z - info: Starting rendering request 4 (user: null)
+2018-09-26T04:47:36.209Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: true }
+2018-09-26T04:47:37.734Z - info: Rendering request 4 finished in 1526 ms
+2018-09-26T04:49:49.004Z - info: Starting rendering request 5 (user: null)
+2018-09-26T04:49:49.005Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-09-26T04:49:50.603Z - info: Rendering request 5 finished in 1599 ms
+2018-09-26T04:51:05.692Z - info: Starting rendering request 6 (user: null)
+2018-09-26T04:51:05.692Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-09-26T04:51:07.116Z - info: Rendering request 6 finished in 1423 ms
+2018-09-26T04:53:13.306Z - info: Starting rendering request 7 (user: null)
+2018-09-26T04:53:13.308Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-09-26T04:53:14.685Z - info: Rendering request 7 finished in 1379 ms
+2018-09-26T04:53:47.715Z - info: Starting rendering request 8 (user: null)
+2018-09-26T04:53:47.715Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-09-26T04:53:49.137Z - info: Rendering request 8 finished in 1422 ms
+2018-09-26T04:54:02.754Z - info: Starting rendering request 9 (user: null)
+2018-09-26T04:54:02.755Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-09-26T04:54:04.218Z - info: Rendering request 9 finished in 1463 ms
+2018-09-26T04:55:20.873Z - info: Starting rendering request 10 (user: null)
+2018-09-26T04:55:20.874Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-09-26T04:55:22.332Z - info: Rendering request 10 finished in 1460 ms
+2018-09-26T04:55:36.183Z - info: Starting rendering request 11 (user: null)
+2018-09-26T04:55:36.186Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-09-26T04:55:37.643Z - info: Rendering request 11 finished in 1462 ms
+2018-09-26T04:57:13.467Z - info: Starting rendering request 12 (user: null)
+2018-09-26T04:57:13.469Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-09-26T04:57:14.978Z - info: Rendering request 12 finished in 1511 ms
+2018-09-26T04:57:32.301Z - info: Starting rendering request 13 (user: null)
+2018-09-26T04:57:32.304Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-09-26T04:57:33.779Z - info: Rendering request 13 finished in 1479 ms
+2018-09-26T05:41:02.580Z - info: Starting rendering request 14 (user: null)
+2018-09-26T05:41:02.582Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-09-26T05:41:04.961Z - info: Rendering request 14 finished in 2382 ms
+2018-09-26T06:57:29.056Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-09-26T06:57:29.058Z - info: Searching for available extensions in C:\Users\56160\Desktop\jsreport\
+2018-09-26T06:57:29.064Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\56160\Desktop\jsreport\
+2018-09-26T06:57:29.103Z - info: Found 31 extensions
+2018-09-26T06:57:29.484Z - info: Using extension handlebars
+2018-09-26T06:57:29.489Z - info: Using extension import-export
+2018-09-26T06:57:29.698Z - info: Using extension templates
+2018-09-26T06:57:29.707Z - info: Using extension jsrender
+2018-09-26T06:57:29.709Z - info: Using extension freeze
+2018-09-26T06:57:29.712Z - info: Using extension cli
+2018-09-26T06:57:29.713Z - info: Using extension express
+2018-09-26T06:57:29.988Z - info: Using extension debug
+2018-09-26T06:57:29.991Z - info: Using extension tags
+2018-09-26T06:57:29.997Z - info: Using extension data
+2018-09-26T06:57:30.001Z - info: Using extension fs-store
+2018-09-26T06:57:30.406Z - info: Using extension authorization
+2018-09-26T06:57:30.411Z - info: Using extension html-to-xlsx
+2018-09-26T06:57:30.664Z - info: html-to-xlsx detected chrome as available html engine
+2018-09-26T06:57:30.664Z - info: Using extension child-templates
+2018-09-26T06:57:30.669Z - info: Using extension browser-client
+2018-09-26T06:57:30.672Z - info: Using extension chrome-pdf
+2018-09-26T06:57:30.680Z - info: Using extension pdf-utils
+2018-09-26T06:57:30.807Z - info: Using extension version-control
+2018-09-26T06:57:30.871Z - info: Using extension reports
+2018-09-26T06:57:30.874Z - info: Using extension text
+2018-09-26T06:57:30.876Z - info: Using extension base
+2018-09-26T06:57:30.878Z - info: Using extension studio
+2018-09-26T06:57:30.943Z - info: Using extension licensing
+2018-09-26T06:57:30.974Z - info: Using extension scripts
+2018-09-26T06:57:30.980Z - info: Using extension assets
+2018-09-26T06:57:30.992Z - info: Using extension scheduling
+2018-09-26T06:57:31.029Z - info: Using extension xlsx
+2018-09-26T06:57:31.075Z - info: Using extension sample-template
+2018-09-26T06:57:31.078Z - info: Using extension resources
+2018-09-26T06:57:31.081Z - info: Using extension public-templates
+2018-09-26T06:57:31.092Z - info: fs store is persisting using fs
+2018-09-26T06:57:31.093Z - info: fs store is synchronizing using fs
+2018-09-26T06:57:31.142Z - info: fs store is loading data
+2018-09-26T06:57:31.214Z - info: fs store is initialized successfully
+2018-09-26T06:57:31.229Z - info: Creating default express app.
+2018-09-26T06:57:31.259Z - info: jsreport server successfully started on http port: 5488
+2018-09-26T06:57:31.261Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-09-26T06:57:31.289Z - info: Verifying license key free
+2018-09-26T06:57:31.290Z - info: Using free license
+2018-09-26T06:57:31.292Z - info: reporter initialized
+2018-09-26T06:59:39.484Z - info: Starting rendering request 1 (user: null)
+2018-09-26T06:59:39.486Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-09-26T06:59:42.346Z - info: Rendering request 1 finished in 2862 ms
+2018-09-26T07:03:54.944Z - info: Starting rendering request 2 (user: null)
+2018-09-26T07:03:54.948Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-09-26T07:03:56.546Z - info: Rendering request 2 finished in 1603 ms
+2018-09-26T08:06:34.710Z - info: Starting rendering request 3 (user: null)
+2018-09-26T08:06:34.711Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-09-26T08:06:36.510Z - info: Rendering request 3 finished in 1800 ms
+2018-09-26T08:06:36.611Z - info: Starting rendering request 4 (user: null)
+2018-09-26T08:06:36.612Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-09-26T08:06:38.254Z - info: Rendering request 4 finished in 1644 ms
+2018-09-26T08:15:03.370Z - info: Starting rendering request 5 (user: null)
+2018-09-26T08:15:03.371Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-09-26T08:15:05.229Z - info: Rendering request 5 finished in 1860 ms
+2018-09-26T09:59:27.421Z - info: Starting rendering request 6 (user: null)
+2018-09-26T09:59:27.423Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-09-26T09:59:29.897Z - info: Rendering request 6 finished in 2476 ms
+2018-09-26T10:06:19.021Z - info: Starting rendering request 7 (user: null)
+2018-09-26T10:06:19.022Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-09-26T10:06:20.564Z - info: Rendering request 7 finished in 1543 ms
+2018-09-26T10:37:35.078Z - info: Starting rendering request 8 (user: null)
+2018-09-26T10:37:35.081Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-09-26T10:37:37.043Z - info: Rendering request 8 finished in 1965 ms
+2018-09-26T10:55:55.809Z - info: Starting rendering request 9 (user: null)
+2018-09-26T10:55:55.810Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-09-26T10:55:57.370Z - info: Rendering request 9 finished in 1562 ms
+2018-09-26T11:02:15.042Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-09-26T11:02:15.044Z - info: Searching for available extensions in C:\Users\56160\Desktop\jsreport\
+2018-09-26T11:02:15.049Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\56160\Desktop\jsreport\
+2018-09-26T11:02:15.103Z - info: Found 31 extensions
+2018-09-26T11:02:15.497Z - info: Using extension handlebars
+2018-09-26T11:02:15.502Z - info: Using extension import-export
+2018-09-26T11:02:15.710Z - info: Using extension templates
+2018-09-26T11:02:15.720Z - info: Using extension jsrender
+2018-09-26T11:02:15.723Z - info: Using extension freeze
+2018-09-26T11:02:15.725Z - info: Using extension cli
+2018-09-26T11:02:15.726Z - info: Using extension express
+2018-09-26T11:02:16.007Z - info: Using extension debug
+2018-09-26T11:02:16.010Z - info: Using extension tags
+2018-09-26T11:02:16.017Z - info: Using extension data
+2018-09-26T11:02:16.023Z - info: Using extension fs-store
+2018-09-26T11:02:16.470Z - info: Using extension authorization
+2018-09-26T11:02:16.475Z - info: Using extension html-to-xlsx
+2018-09-26T11:02:16.734Z - info: html-to-xlsx detected chrome as available html engine
+2018-09-26T11:02:16.735Z - info: Using extension child-templates
+2018-09-26T11:02:16.740Z - info: Using extension browser-client
+2018-09-26T11:02:16.744Z - info: Using extension chrome-pdf
+2018-09-26T11:02:16.754Z - info: Using extension pdf-utils
+2018-09-26T11:02:16.889Z - info: Using extension version-control
+2018-09-26T11:02:16.941Z - info: Using extension reports
+2018-09-26T11:02:16.945Z - info: Using extension text
+2018-09-26T11:02:16.947Z - info: Using extension base
+2018-09-26T11:02:16.949Z - info: Using extension studio
+2018-09-26T11:02:17.024Z - info: Using extension licensing
+2018-09-26T11:02:17.059Z - info: Using extension scripts
+2018-09-26T11:02:17.068Z - info: Using extension assets
+2018-09-26T11:02:17.082Z - info: Using extension scheduling
+2018-09-26T11:02:17.131Z - info: Using extension xlsx
+2018-09-26T11:02:17.204Z - info: Using extension sample-template
+2018-09-26T11:02:17.208Z - info: Using extension resources
+2018-09-26T11:02:17.211Z - info: Using extension public-templates
+2018-09-26T11:02:17.229Z - info: fs store is persisting using fs
+2018-09-26T11:02:17.230Z - info: fs store is synchronizing using fs
+2018-09-26T11:02:17.266Z - info: fs store is loading data
+2018-09-26T11:02:17.341Z - info: fs store is initialized successfully
+2018-09-26T11:02:17.355Z - info: Creating default express app.
+2018-09-26T11:02:17.388Z - info: jsreport server successfully started on http port: 5488
+2018-09-26T11:02:17.390Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-09-26T11:02:17.420Z - info: Verifying license key free
+2018-09-26T11:02:17.421Z - info: Using free license
+2018-09-26T11:02:17.423Z - info: reporter initialized
+2018-09-26T11:04:54.203Z - info: Starting rendering request 1 (user: null)
+2018-09-26T11:04:54.205Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-09-26T11:04:56.273Z - info: Rendering request 1 finished in 2071 ms
+2018-09-26T11:05:28.030Z - info: Starting rendering request 2 (user: null)
+2018-09-26T11:05:28.031Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-09-26T11:05:29.447Z - info: Rendering request 2 finished in 1418 ms
