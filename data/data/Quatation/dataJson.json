@@ -18,7 +18,7 @@
                 "email":"paxxxx@gmail.com",
                 "tel":"021xxxxxx"
             },
-            "total":"600.00",
+            "total":"6000.25",
             "date_now":"2 Aug 2018",
             "time_now":"11:60",
             "items":[
@@ -66,13 +66,13 @@
                                          }]
                                     }
                              ],
-                         "qty":"10",
+                         "qty":"10000",
                          "rate":"100.00",
                          "amount":"1000.00",
                          "totalJob":"300",
                          "unit":"pcs",
                          "imgQuo":"5b0fa973c7427101a29a62f2",
-                         "incomingQty":"10"
+                         "incomingQty":"1000.54"
                      },
                      {
                          "jobNo":"1800001-2",

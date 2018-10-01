@@ -158,7 +158,7 @@
                                        <span class="font-12"><b> {{ job_type }} </b></span> <br>
                                     </div>
                                     <div class="col-xs-1 quantity" style="padding-left:0.5%; padding-right:0.5%; text-align:right;">
-                                       {{incomingQty}} {{unit}}
+                                       {{comma incomingQty}} {{unit}}
                                     </div>
                                     <div class="col-xs-1 rate" style="padding-left:0.5%; padding-right:0.5%; text-align:right;">
                                     </div> 
@@ -185,16 +185,16 @@
                                           </div>
                                        </div>
                                        <div class="col-xs-1 quantity" style="padding-top:2.5%; padding-left:0.5%; padding-right:0.5%; text-align:right;">
-                                          {{ qtyProcess }} {{ qtyUnit }}
+                                          {{ comma qtyProcess }} {{ qtyUnit }}
                                        </div>
                                        <div class="col-xs-1 rate" style="padding-top:2.5% ;padding-left:0.5%; padding-right:0.5%; text-align:right;">
-                                          {{ rate }}
+                                          {{ comma rate }}
                                        </div>
                                        <div class="col-xs-1 per" style="padding-top:2.5%; padding-left:1%; padding-right:0.5%; text-align:center; ">
                                           {{ unitProcess }}
                                        </div>
                                        <div class="col-xs-2 amount" style="padding-top:2.5%; padding-left:0.5%; padding-right:0.5%; text-align:right;">
-                                          {{ amount }}
+                                          {{ comma_decimal amount }}
                                        </div>
                                     </div>
                                     
@@ -213,16 +213,16 @@
                                                   </div>
                                                </div>
                                                <div class="col-xs-1 quantity" style="padding-left:0.5%; padding-right:0.5%; text-align:right;">
-                                                  {{ qty }} {{ qtyUnit }}
+                                                  {{ comma qty }} {{ qtyUnit }}
                                                </div>
                                                <div class="col-xs-1 rate" style=" ;padding-left:0.5%; padding-right:0.5%; text-align:right;">
-                                                  {{ rate }}
+                                                  {{ comma rate }}
                                                </div>
                                                <div class="col-xs-1 per" style="padding-left:1%; padding-right:0.5%; text-align:center; ">
                                                   {{ unit }}
                                                </div>
                                                <div class="col-xs-2 amount" style="padding-left:0.5%; padding-right:0.5%; text-align:right;">
-                                                  {{ amount }}
+                                                  {{ comma_decimal amount }}
                                                </div>
                                             </div>
                                             {{/each}}
@@ -264,7 +264,7 @@
                         {{!--  ITEMS SUMMARY--}} 
                         <div class="row box " style="margin-top:450px; border-bottom:none;">
                            <div class="col-xs-7 font-10 items-summary" style="padding-top: 0.3%; "> Total </div>
-                           <div class="col-xs-5 font-14 items-summary"><b> {{total}} Baht </b></div>
+                           <div class="col-xs-5 font-14 items-summary"><b> {{comma_decimal total}} Baht </b></div>
                         </div>
                         {{!-- END ITEMS SUMMARY--}} 
                      </div>
