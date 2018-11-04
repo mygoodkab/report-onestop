@@ -12357,3 +12357,384 @@ Expecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SE
 2018-10-01T07:50:13.810Z - info: Starting rendering request 33 (user: null)
 2018-10-01T07:50:13.812Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: true }
 2018-10-01T07:50:15.164Z - info: Rendering request 33 finished in 1353 ms
+2018-10-02T02:18:49.237Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-10-02T02:18:49.238Z - info: Searching for available extensions in C:\Users\56160\Desktop\jsreport\
+2018-10-02T02:18:49.244Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\56160\Desktop\jsreport\
+2018-10-02T02:18:49.311Z - info: Found 31 extensions
+2018-10-02T02:18:49.680Z - info: Using extension handlebars
+2018-10-02T02:18:49.680Z - info: Using extension import-export
+2018-10-02T02:18:49.862Z - info: Using extension templates
+2018-10-02T02:18:49.879Z - info: Using extension jsrender
+2018-10-02T02:18:49.880Z - info: Using extension freeze
+2018-10-02T02:18:49.882Z - info: Using extension cli
+2018-10-02T02:18:49.883Z - info: Using extension express
+2018-10-02T02:18:50.108Z - info: Using extension debug
+2018-10-02T02:18:50.111Z - info: Using extension tags
+2018-10-02T02:18:50.117Z - info: Using extension data
+2018-10-02T02:18:50.122Z - info: Using extension fs-store
+2018-10-02T02:18:50.452Z - info: Using extension authorization
+2018-10-02T02:18:50.457Z - info: Using extension html-to-xlsx
+2018-10-02T02:18:50.668Z - info: html-to-xlsx detected chrome as available html engine
+2018-10-02T02:18:50.669Z - info: Using extension child-templates
+2018-10-02T02:18:50.672Z - info: Using extension browser-client
+2018-10-02T02:18:50.676Z - info: Using extension chrome-pdf
+2018-10-02T02:18:50.684Z - info: Using extension pdf-utils
+2018-10-02T02:18:50.806Z - info: Using extension version-control
+2018-10-02T02:18:50.851Z - info: Using extension reports
+2018-10-02T02:18:50.855Z - info: Using extension text
+2018-10-02T02:18:50.856Z - info: Using extension base
+2018-10-02T02:18:50.859Z - info: Using extension studio
+2018-10-02T02:18:50.921Z - info: Using extension licensing
+2018-10-02T02:18:50.948Z - info: Using extension scripts
+2018-10-02T02:18:50.955Z - info: Using extension assets
+2018-10-02T02:18:50.968Z - info: Using extension scheduling
+2018-10-02T02:18:51.008Z - info: Using extension xlsx
+2018-10-02T02:18:51.072Z - info: Using extension sample-template
+2018-10-02T02:18:51.075Z - info: Using extension resources
+2018-10-02T02:18:51.077Z - info: Using extension public-templates
+2018-10-02T02:18:51.091Z - info: fs store is persisting using fs
+2018-10-02T02:18:51.092Z - info: fs store is synchronizing using fs
+2018-10-02T02:18:51.121Z - info: fs store is loading data
+2018-10-02T02:18:51.196Z - info: fs store is initialized successfully
+2018-10-02T02:18:51.211Z - info: Creating default express app.
+2018-10-02T02:18:51.243Z - info: jsreport server successfully started on http port: 5488
+2018-10-02T02:18:51.243Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-10-02T02:18:51.269Z - info: Verifying license key free
+2018-10-02T02:18:51.270Z - info: Using free license
+2018-10-02T02:18:51.273Z - info: reporter initialized
+2018-10-02T02:47:48.316Z - info: Starting rendering request 1 (user: null)
+2018-10-02T02:47:48.318Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T02:47:50.968Z - info: Rendering request 1 finished in 2651 ms
+2018-10-02T03:10:14.539Z - info: Starting rendering request 2 (user: null)
+2018-10-02T03:10:14.540Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T03:10:16.032Z - info: Rendering request 2 finished in 1493 ms
+2018-10-02T03:19:56.345Z - info: Starting rendering request 3 (user: null)
+2018-10-02T03:19:56.348Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T03:19:57.986Z - info: Rendering request 3 finished in 1642 ms
+2018-10-02T03:21:02.254Z - info: Starting rendering request 4 (user: null)
+2018-10-02T03:21:02.258Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T03:21:03.737Z - info: Rendering request 4 finished in 1484 ms
+2018-10-02T03:21:58.767Z - info: Starting rendering request 5 (user: null)
+2018-10-02T03:21:58.770Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T03:22:00.263Z - info: Rendering request 5 finished in 1497 ms
+2018-10-02T03:31:47.035Z - info: Starting rendering request 6 (user: null)
+2018-10-02T03:31:47.039Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T03:31:48.522Z - info: Rendering request 6 finished in 1488 ms
+2018-10-02T03:37:35.942Z - info: Starting rendering request 7 (user: null)
+2018-10-02T03:37:35.942Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T03:37:37.313Z - info: Rendering request 7 finished in 1371 ms
+2018-10-02T03:37:43.457Z - info: Starting rendering request 8 (user: null)
+2018-10-02T03:37:43.458Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T03:37:44.803Z - info: Rendering request 8 finished in 1346 ms
+2018-10-02T03:43:59.369Z - info: Starting rendering request 9 (user: null)
+2018-10-02T03:43:59.371Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T03:44:00.713Z - info: Rendering request 9 finished in 1346 ms
+2018-10-02T03:46:09.425Z - info: Starting rendering request 10 (user: null)
+2018-10-02T03:46:09.427Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T03:46:10.863Z - info: Rendering request 10 finished in 1438 ms
+2018-10-02T03:52:26.835Z - info: Starting rendering request 11 (user: null)
+2018-10-02T03:52:26.853Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T03:52:28.385Z - info: Rendering request 11 finished in 1549 ms
+2018-10-02T07:39:41.813Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-10-02T07:39:41.815Z - info: Searching for available extensions in C:\Users\56160\Desktop\jsreport\
+2018-10-02T07:39:41.826Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\56160\Desktop\jsreport\
+2018-10-02T07:39:41.913Z - info: Found 31 extensions
+2018-10-02T07:39:42.303Z - info: Using extension handlebars
+2018-10-02T07:39:42.309Z - info: Using extension import-export
+2018-10-02T07:39:42.573Z - info: Using extension templates
+2018-10-02T07:39:42.582Z - info: Using extension jsrender
+2018-10-02T07:39:42.585Z - info: Using extension freeze
+2018-10-02T07:39:42.588Z - info: Using extension cli
+2018-10-02T07:39:42.589Z - info: Using extension express
+2018-10-02T07:39:42.910Z - info: Using extension debug
+2018-10-02T07:39:42.914Z - info: Using extension tags
+2018-10-02T07:39:42.923Z - info: Using extension data
+2018-10-02T07:39:42.930Z - info: Using extension fs-store
+2018-10-02T07:39:43.487Z - info: Using extension authorization
+2018-10-02T07:39:43.497Z - info: Using extension html-to-xlsx
+2018-10-02T07:39:43.757Z - info: html-to-xlsx detected chrome as available html engine
+2018-10-02T07:39:43.757Z - info: Using extension child-templates
+2018-10-02T07:39:43.762Z - info: Using extension browser-client
+2018-10-02T07:39:43.766Z - info: Using extension chrome-pdf
+2018-10-02T07:39:43.775Z - info: Using extension pdf-utils
+2018-10-02T07:39:43.895Z - info: Using extension version-control
+2018-10-02T07:39:43.948Z - info: Using extension reports
+2018-10-02T07:39:43.951Z - info: Using extension text
+2018-10-02T07:39:43.953Z - info: Using extension base
+2018-10-02T07:39:43.956Z - info: Using extension studio
+2018-10-02T07:39:44.021Z - info: Using extension licensing
+2018-10-02T07:39:44.051Z - info: Using extension scripts
+2018-10-02T07:39:44.057Z - info: Using extension assets
+2018-10-02T07:39:44.068Z - info: Using extension scheduling
+2018-10-02T07:39:44.105Z - info: Using extension xlsx
+2018-10-02T07:39:44.165Z - info: Using extension sample-template
+2018-10-02T07:39:44.168Z - info: Using extension resources
+2018-10-02T07:39:44.171Z - info: Using extension public-templates
+2018-10-02T07:39:44.185Z - info: fs store is persisting using fs
+2018-10-02T07:39:44.186Z - info: fs store is synchronizing using fs
+2018-10-02T07:39:44.188Z - info: fs store is loading data
+2018-10-02T07:39:44.271Z - info: fs store is initialized successfully
+2018-10-02T07:39:44.284Z - info: Creating default express app.
+2018-10-02T07:39:44.320Z - info: jsreport server successfully started on http port: 5488
+2018-10-02T07:39:44.321Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-10-02T07:39:44.349Z - info: Verifying license key free
+2018-10-02T07:39:44.351Z - info: Using free license
+2018-10-02T07:39:44.400Z - info: reporter initialized
+2018-10-02T07:39:47.959Z - info: Starting rendering request 1 (user: null)
+2018-10-02T07:39:47.962Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T07:39:50.589Z - info: Rendering request 1 finished in 2630 ms
+2018-10-02T07:40:00.224Z - info: Starting rendering request 2 (user: null)
+2018-10-02T07:40:00.225Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T07:40:01.562Z - info: Rendering request 2 finished in 1337 ms
+2018-10-02T07:41:39.787Z - info: Starting rendering request 3 (user: null)
+2018-10-02T07:41:39.789Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T07:41:41.249Z - info: Rendering request 3 finished in 1463 ms
+2018-10-02T07:42:38.222Z - info: Starting rendering request 4 (user: null)
+2018-10-02T07:42:38.227Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T07:42:39.681Z - info: Rendering request 4 finished in 1461 ms
+2018-10-02T07:43:02.457Z - info: Starting rendering request 5 (user: null)
+2018-10-02T07:43:02.460Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T07:43:03.875Z - info: Rendering request 5 finished in 1419 ms
+2018-10-02T07:49:55.915Z - info: Starting rendering request 6 (user: null)
+2018-10-02T07:49:55.916Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T07:49:57.592Z - info: Rendering request 6 finished in 1678 ms
+2018-10-02T07:50:06.867Z - info: Starting rendering request 7 (user: null)
+2018-10-02T07:50:06.872Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T07:50:08.251Z - info: Rendering request 7 finished in 1386 ms
+2018-10-02T07:50:52.078Z - info: Starting rendering request 8 (user: null)
+2018-10-02T07:50:52.084Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T07:50:53.498Z - info: Rendering request 8 finished in 1423 ms
+2018-10-02T07:51:31.676Z - info: Starting rendering request 9 (user: null)
+2018-10-02T07:51:31.677Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T07:51:33.077Z - info: Rendering request 9 finished in 1403 ms
+2018-10-02T07:51:59.498Z - info: Starting rendering request 10 (user: null)
+2018-10-02T07:51:59.504Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T07:52:00.870Z - info: Rendering request 10 finished in 1373 ms
+2018-10-02T07:57:39.382Z - info: Starting rendering request 11 (user: null)
+2018-10-02T07:57:39.383Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T07:57:40.802Z - info: Rendering request 11 finished in 1420 ms
+2018-10-02T07:58:39.771Z - info: Starting rendering request 12 (user: null)
+2018-10-02T07:58:39.774Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T07:58:41.144Z - info: Rendering request 12 finished in 1375 ms
+2018-10-02T07:58:54.900Z - info: Starting rendering request 13 (user: null)
+2018-10-02T07:58:54.902Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T07:58:56.264Z - info: Rendering request 13 finished in 1365 ms
+2018-10-02T08:18:29.318Z - info: Starting rendering request 14 (user: null)
+2018-10-02T08:18:29.319Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T08:18:30.932Z - info: Rendering request 14 finished in 1614 ms
+2018-10-02T08:21:46.142Z - info: Starting rendering request 15 (user: null)
+2018-10-02T08:21:46.143Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T08:21:47.581Z - info: Rendering request 15 finished in 1438 ms
+2018-10-02T08:41:00.188Z - info: Starting rendering request 16 (user: null)
+2018-10-02T08:41:00.191Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T08:41:01.885Z - info: Rendering request 16 finished in 1699 ms
+2018-10-02T08:45:20.860Z - info: Starting rendering request 17 (user: null)
+2018-10-02T08:45:20.861Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T08:45:22.520Z - info: Rendering request 17 finished in 1660 ms
+2018-10-02T08:49:19.552Z - info: Starting rendering request 18 (user: null)
+2018-10-02T08:49:19.553Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T08:49:21.002Z - info: Rendering request 18 finished in 1450 ms
+2018-10-02T08:49:47.190Z - info: Starting rendering request 19 (user: null)
+2018-10-02T08:49:47.193Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T08:49:48.661Z - info: Rendering request 19 finished in 1471 ms
+2018-10-02T08:50:31.788Z - info: Starting rendering request 20 (user: null)
+2018-10-02T08:50:31.793Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T08:50:33.267Z - info: Rendering request 20 finished in 1480 ms
+2018-10-02T08:51:00.988Z - info: Starting rendering request 21 (user: null)
+2018-10-02T08:51:00.991Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T08:51:02.419Z - info: Rendering request 21 finished in 1433 ms
+2018-10-02T08:51:51.146Z - info: Starting rendering request 22 (user: null)
+2018-10-02T08:51:51.149Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T08:51:52.580Z - info: Rendering request 22 finished in 1434 ms
+2018-10-02T08:52:27.185Z - info: Starting rendering request 23 (user: null)
+2018-10-02T08:52:27.187Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T08:52:28.626Z - info: Rendering request 23 finished in 1441 ms
+2018-10-02T08:54:08.501Z - info: Starting rendering request 24 (user: null)
+2018-10-02T08:54:08.501Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T08:54:09.957Z - info: Rendering request 24 finished in 1457 ms
+2018-10-02T08:54:18.520Z - info: Starting rendering request 25 (user: null)
+2018-10-02T08:54:18.524Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T08:54:19.808Z - info: Rendering request 25 finished in 1289 ms
+2018-10-02T09:07:57.635Z - info: Starting rendering request 26 (user: null)
+2018-10-02T09:07:57.636Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T09:07:59.176Z - info: Rendering request 26 finished in 1542 ms
+2018-10-02T09:11:27.244Z - info: Starting rendering request 27 (user: null)
+2018-10-02T09:11:27.246Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T09:11:28.809Z - info: Rendering request 27 finished in 1566 ms
+2018-10-02T09:13:07.800Z - info: Starting rendering request 28 (user: null)
+2018-10-02T09:13:07.804Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T09:13:09.240Z - info: Rendering request 28 finished in 1441 ms
+2018-10-02T09:13:19.970Z - info: Starting rendering request 29 (user: null)
+2018-10-02T09:13:19.971Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T09:13:21.280Z - info: Rendering request 29 finished in 1311 ms
+2018-10-02T09:14:00.804Z - info: Starting rendering request 30 (user: null)
+2018-10-02T09:14:00.806Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T09:14:02.189Z - info: Rendering request 30 finished in 1385 ms
+2018-10-02T09:33:36.955Z - info: Starting rendering request 31 (user: null)
+2018-10-02T09:33:36.956Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T09:33:38.653Z - info: Rendering request 31 finished in 1699 ms
+2018-10-02T09:50:06.516Z - info: Starting rendering request 32 (user: null)
+2018-10-02T09:50:06.523Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T09:50:08.189Z - info: Rendering request 32 finished in 1674 ms
+2018-10-02T10:07:52.983Z - info: Starting rendering request 33 (user: null)
+2018-10-02T10:07:52.986Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T10:07:54.377Z - info: Rendering request 33 finished in 1396 ms
+2018-10-02T10:08:29.408Z - info: Starting rendering request 34 (user: null)
+2018-10-02T10:08:29.410Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T10:08:30.818Z - info: Rendering request 34 finished in 1411 ms
+2018-10-02T10:23:25.220Z - info: Starting rendering request 35 (user: null)
+2018-10-02T10:23:25.221Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T10:23:26.903Z - info: Rendering request 35 finished in 1683 ms
+2018-10-02T10:26:52.278Z - info: Starting rendering request 36 (user: null)
+2018-10-02T10:26:52.279Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T10:26:53.993Z - info: Rendering request 36 finished in 1716 ms
+2018-10-02T11:09:42.075Z - info: Starting rendering request 37 (user: null)
+2018-10-02T11:09:42.075Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T11:09:44.140Z - info: Rendering request 37 finished in 2066 ms
+2018-10-02T11:20:04.554Z - info: Starting rendering request 38 (user: null)
+2018-10-02T11:20:04.555Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T11:20:06.050Z - info: Rendering request 38 finished in 1496 ms
+2018-10-02T11:42:26.230Z - info: Starting rendering request 39 (user: null)
+2018-10-02T11:42:26.232Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T11:42:27.721Z - info: Rendering request 39 finished in 1491 ms
+2018-10-02T11:42:38.004Z - info: Starting rendering request 40 (user: null)
+2018-10-02T11:42:38.005Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T11:42:39.697Z - info: Rendering request 40 finished in 1692 ms
+2018-10-02T12:12:40.372Z - info: Starting rendering request 41 (user: null)
+2018-10-02T12:12:40.375Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T12:12:42.049Z - info: Rendering request 41 finished in 1677 ms
+2018-10-02T12:14:22.379Z - info: Starting rendering request 42 (user: null)
+2018-10-02T12:14:22.380Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T12:14:23.865Z - info: Rendering request 42 finished in 1487 ms
+2018-10-02T12:14:33.885Z - info: Starting rendering request 43 (user: null)
+2018-10-02T12:14:33.886Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T12:14:35.282Z - info: Rendering request 43 finished in 1397 ms
+2018-10-02T12:25:01.820Z - info: Starting rendering request 44 (user: null)
+2018-10-02T12:25:01.821Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T12:25:03.500Z - info: Rendering request 44 finished in 1679 ms
+2018-10-02T12:25:31.200Z - info: Starting rendering request 45 (user: null)
+2018-10-02T12:25:31.201Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T12:25:32.584Z - info: Rendering request 45 finished in 1384 ms
+2018-10-02T12:26:03.815Z - info: Starting rendering request 46 (user: null)
+2018-10-02T12:26:03.816Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T12:26:05.400Z - info: Rendering request 46 finished in 1586 ms
+2018-10-02T12:28:34.845Z - info: Starting rendering request 47 (user: null)
+2018-10-02T12:28:34.846Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T12:28:36.673Z - info: Rendering request 47 finished in 1829 ms
+2018-10-02T12:28:39.140Z - info: Starting rendering request 48 (user: null)
+2018-10-02T12:28:39.141Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T12:28:40.529Z - info: Rendering request 48 finished in 1388 ms
+2018-10-02T12:28:54.300Z - info: Starting rendering request 49 (user: null)
+2018-10-02T12:28:54.301Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T12:28:55.632Z - info: Rendering request 49 finished in 1333 ms
+2018-10-02T12:28:59.689Z - info: Starting rendering request 50 (user: null)
+2018-10-02T12:28:59.690Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T12:29:01.096Z - info: Rendering request 50 finished in 1408 ms
+2018-10-02T12:29:27.343Z - info: Starting rendering request 51 (user: null)
+2018-10-02T12:29:27.345Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T12:29:28.725Z - info: Rendering request 51 finished in 1382 ms
+2018-10-02T12:31:37.263Z - info: Starting rendering request 52 (user: null)
+2018-10-02T12:31:37.264Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T12:31:38.757Z - info: Rendering request 52 finished in 1494 ms
+2018-10-02T12:32:05.645Z - info: Starting rendering request 53 (user: null)
+2018-10-02T12:32:05.647Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T12:32:07.054Z - info: Rendering request 53 finished in 1409 ms
+2018-10-02T12:36:07.658Z - info: Starting rendering request 54 (user: null)
+2018-10-02T12:36:07.659Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T12:36:09.127Z - info: Rendering request 54 finished in 1469 ms
+2018-10-02T12:36:16.911Z - info: Starting rendering request 55 (user: null)
+2018-10-02T12:36:16.912Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: false }
+2018-10-02T12:36:18.250Z - info: Rendering request 55 finished in 1339 ms
+2018-10-03T04:02:15.270Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-10-03T04:02:15.270Z - info: Searching for available extensions in C:\Users\56160\Desktop\jsreport\
+2018-10-03T04:02:15.289Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\56160\Desktop\jsreport\
+2018-10-03T04:02:15.392Z - info: Found 31 extensions
+2018-10-03T04:02:15.773Z - info: Using extension handlebars
+2018-10-03T04:02:15.773Z - info: Using extension import-export
+2018-10-03T04:02:16.087Z - info: Using extension templates
+2018-10-03T04:02:16.107Z - info: Using extension jsrender
+2018-10-03T04:02:16.109Z - info: Using extension freeze
+2018-10-03T04:02:16.112Z - info: Using extension cli
+2018-10-03T04:02:16.113Z - info: Using extension express
+2018-10-03T04:02:16.466Z - info: Using extension debug
+2018-10-03T04:02:16.466Z - info: Using extension tags
+2018-10-03T04:02:16.482Z - info: Using extension data
+2018-10-03T04:02:16.507Z - info: Using extension fs-store
+2018-10-03T04:02:16.973Z - info: Using extension authorization
+2018-10-03T04:02:16.978Z - info: Using extension html-to-xlsx
+2018-10-03T04:02:17.286Z - info: html-to-xlsx detected chrome as available html engine
+2018-10-03T04:02:17.286Z - info: Using extension child-templates
+2018-10-03T04:02:17.303Z - info: Using extension browser-client
+2018-10-03T04:02:17.307Z - info: Using extension chrome-pdf
+2018-10-03T04:02:17.315Z - info: Using extension pdf-utils
+2018-10-03T04:02:17.449Z - info: Using extension version-control
+2018-10-03T04:02:17.510Z - info: Using extension reports
+2018-10-03T04:02:17.514Z - info: Using extension text
+2018-10-03T04:02:17.516Z - info: Using extension base
+2018-10-03T04:02:17.519Z - info: Using extension studio
+2018-10-03T04:02:17.593Z - info: Using extension licensing
+2018-10-03T04:02:17.628Z - info: Using extension scripts
+2018-10-03T04:02:17.636Z - info: Using extension assets
+2018-10-03T04:02:17.649Z - info: Using extension scheduling
+2018-10-03T04:02:17.689Z - info: Using extension xlsx
+2018-10-03T04:02:17.757Z - info: Using extension sample-template
+2018-10-03T04:02:17.760Z - info: Using extension resources
+2018-10-03T04:02:17.762Z - info: Using extension public-templates
+2018-10-03T04:02:17.775Z - info: fs store is persisting using fs
+2018-10-03T04:02:17.776Z - info: fs store is synchronizing using fs
+2018-10-03T04:02:17.778Z - info: fs store is loading data
+2018-10-03T04:02:17.860Z - info: fs store is initialized successfully
+2018-10-03T04:02:17.874Z - info: Creating default express app.
+2018-10-03T04:02:17.913Z - info: jsreport server successfully started on http port: 5488
+2018-10-03T04:02:17.966Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-10-03T04:02:18.004Z - info: Verifying license key free
+2018-10-03T04:02:18.006Z - info: Using free license
+2018-10-03T04:02:18.008Z - info: reporter initialized
+2018-11-02T04:22:37.282Z - info: Initializing jsreport@2.1.1 in development mode using configuration file: jsreport.config.json
+2018-11-02T04:22:37.283Z - info: Searching for available extensions in C:\Users\56160\Desktop\jsreport\
+2018-11-02T04:22:37.288Z - info: Extensions location cache not found, crawling directories
+2018-11-02T04:22:40.540Z - info: Found 31 extensions
+2018-11-02T04:22:41.084Z - info: Using extension handlebars
+2018-11-02T04:22:41.089Z - info: Using extension import-export
+2018-11-02T04:22:41.312Z - info: Using extension templates
+2018-11-02T04:22:41.320Z - info: Using extension jsrender
+2018-11-02T04:22:41.322Z - info: Using extension freeze
+2018-11-02T04:22:41.325Z - info: Using extension cli
+2018-11-02T04:22:41.326Z - info: Using extension express
+2018-11-02T04:22:41.592Z - info: Using extension debug
+2018-11-02T04:22:41.596Z - info: Using extension tags
+2018-11-02T04:22:41.604Z - info: Using extension data
+2018-11-02T04:22:41.608Z - info: Using extension fs-store
+2018-11-02T04:22:42.018Z - info: Using extension authorization
+2018-11-02T04:22:42.023Z - info: Using extension html-to-xlsx
+2018-11-02T04:22:42.283Z - info: html-to-xlsx detected chrome as available html engine
+2018-11-02T04:22:42.284Z - info: Using extension child-templates
+2018-11-02T04:22:42.290Z - info: Using extension browser-client
+2018-11-02T04:22:42.295Z - info: Using extension chrome-pdf
+2018-11-02T04:22:42.305Z - info: Using extension pdf-utils
+2018-11-02T04:22:42.459Z - info: Using extension version-control
+2018-11-02T04:22:42.520Z - info: Using extension reports
+2018-11-02T04:22:42.524Z - info: Using extension text
+2018-11-02T04:22:42.526Z - info: Using extension base
+2018-11-02T04:22:42.529Z - info: Using extension studio
+2018-11-02T04:22:42.603Z - info: Using extension licensing
+2018-11-02T04:22:42.645Z - info: Using extension scripts
+2018-11-02T04:22:42.652Z - info: Using extension assets
+2018-11-02T04:22:42.668Z - info: Using extension scheduling
+2018-11-02T04:22:42.724Z - info: Using extension xlsx
+2018-11-02T04:22:42.787Z - info: Using extension sample-template
+2018-11-02T04:22:42.790Z - info: Using extension resources
+2018-11-02T04:22:42.793Z - info: Using extension public-templates
+2018-11-02T04:22:42.810Z - info: fs store is persisting using fs
+2018-11-02T04:22:42.810Z - info: fs store is synchronizing using fs
+2018-11-02T04:22:42.868Z - info: fs store is loading data
+2018-11-02T04:22:42.994Z - info: fs store is initialized successfully
+2018-11-02T04:22:43.015Z - info: Creating default express app.
+2018-11-02T04:22:43.049Z - info: jsreport server successfully started on http port: 5488
+2018-11-02T04:22:43.050Z - info: fs store emits sockets to synchronize underlying changes with studio
+2018-11-02T04:22:43.087Z - info: Verifying license key free
+2018-11-02T04:22:43.089Z - info: Using free license
+2018-11-02T04:22:43.093Z - info: reporter initialized
+2018-11-02T04:25:09.494Z - info: Starting rendering request 1 (user: null)
+2018-11-02T04:25:09.496Z - info: Rendering template { name: Quotation, recipe: chrome-pdf, engine: handlebars, preview: true }
+2018-11-02T04:25:15.296Z - info: Rendering request 1 finished in 5803 ms
